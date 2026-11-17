@@ -61,12 +61,21 @@ def build_request(plan: QueryPlan, store: str, mode: str, size: int = 8) -> dict
             "aggs": aggs, "size": size}
 
 
+# The mapping doesn't change while the app runs, so ask once per client and remember the answer.
+# (APM showed this lookup costing ~420 ms on every search before it was cached.)
+_semantic_cache: dict[int, bool] = {}
+
+
 def index_has_semantic(es) -> bool:
+    key = id(es)
+    if key in _semantic_cache:
+        return _semantic_cache[key]
     try:
         meta = es.indices.get_mapping(index=config.PRODUCTS_INDEX)[config.PRODUCTS_INDEX]["mappings"].get("_meta", {})
-        return bool(meta.get("semantic"))
     except Exception:
-        return False
+        return False  # not cached: try again on the next search
+    _semantic_cache[key] = bool(meta.get("semantic"))
+    return _semantic_cache[key]
 
 
 def run_search(es, plan: QueryPlan, store: str, mode: str = "hybrid") -> dict:

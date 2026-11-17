@@ -1,17 +1,23 @@
 """Flask web app: chat box -> Claude (understand) -> Elasticsearch (search) -> reply + log for Kibana."""
 from __future__ import annotations
 
+import contextvars
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
 from flask import Flask, jsonify, render_template, request
 
-from app import config
+from app import config, telemetry
 from app.es_client import get_es
 from app.search import build_filters, run_search
 from app.understand import understand
 
 app = Flask(__name__, template_folder="../templates", static_folder="../static")
+telemetry.setup(app)
 _es = None
+# Search logs are written in the background so the shopper doesn't wait for them.
+# (APM showed the synchronous write adding ~680 ms to every search.)
+_log_pool = ThreadPoolExecutor(max_workers=2, thread_name_prefix="search-log")
 
 
 def es():
@@ -117,14 +123,25 @@ def chat():
     store = data.get("store") if data.get("store") in config.STORES else config.DEFAULT_STORE
     mode = data.get("mode") if data.get("mode") in ("hybrid", "lexical", "semantic") else "hybrid"
 
-    plan, source, trace = understand(message)
+    with telemetry.step("understand query", **{"query.length": len(message)}) as span:
+        plan, source, trace = understand(message)
+        if span is not None:
+            span.set_attribute("query.understanding", source)
+            span.set_attribute("query.intent", plan.intent)
+            span.set_attribute("query.diet_tags", ",".join(plan.diet_tags))
     result = {"mode": None, "total": 0, "hits": [], "brands": [], "request": None, "took_ms": 0}
     if plan.intent == "find_product":
         try:
-            result = run_search(es(), plan, store, mode)
+            with telemetry.step("search products", **{"search.mode_requested": mode, "store": store}) as span:
+                result = run_search(es(), plan, store, mode)
+                if span is not None:
+                    span.set_attribute("search.mode", result["mode"])
+                    span.set_attribute("search.hits", result["total"])
         except Exception as exc:
             return jsonify(error=f"Search is unavailable: {exc}"), 503
-    log_search(message, plan, source, result, store)
+    # copy_context keeps the trace context, so the log write still shows up in the same trace.
+    _log_pool.submit(contextvars.copy_context().run, log_search, message, plan, source, result, store)
+    telemetry.record_search(result["mode"], source, result["total"], result["took_ms"], message)
     return jsonify(reply=reply_text(plan, result), plan=plan.model_dump(), understanding=source,
                    pipeline=build_pipeline(message, plan, source, trace, result, store),
                    mode=result["mode"], total=result["total"], took_ms=result["took_ms"],

@@ -3,20 +3,64 @@
 A personal rebuild of a conversational product search pattern for a national grocery retailer (2017–2019: Watson for intent/entities,
 Elasticsearch for products), using today's stack. **Synthetic catalog, invented brands, no client data or code.**
 
+## System design
+
+Where each piece fits, including the one job Claude does:
+
+```mermaid
+flowchart TB
+    shopper["Shopper<br/>browser · chat UI"] -->|"① sentence"| app["Flask web app<br/>app/main.py"]
+    app <-->|"② sentence + allowed values<br/>③ JSON plan"| claude["Claude Haiku (API)<br/>sentence → QueryPlan JSON"]
+    app -. "no key / API down" .-> rules["Rules fallback<br/>same JSON shape"]
+
+    app -->|"④ query"| filters
+    subgraph es["Elasticsearch Serverless · grocery-products"]
+        direction LR
+        filters["Filters (yes/no)<br/>diet · price · brand · stock"] --> bm25["BM25 keyword<br/>name^3 · description"]
+        filters --> sem["Semantic<br/>semantic_all"]
+        bm25 --> rrf["RRF merge<br/>+ popularity boost"]
+        sem --> rrf
+    end
+    rrf -->|"⑤ ranked products + facets"| app
+    eis["Elastic Inference Service<br/>Jina embeddings"] -.->|"embeds at index + query time"| sem
+
+    data["data/products.json<br/>240 synthetic products"] --> loader["app/setup_index.py<br/>_bulk · _id = SKU"] --> es
+    app -->|"⑥ log every search"| logs["search-logs index"] -->|"⑦"| kibana["Kibana<br/>Discover · dashboards · alerts"]
+
+    classDef claudeNode fill:#e5e9fb,stroke:#2f4fd2,stroke-width:2px
+    class claude claudeNode
 ```
-Shopper: "gluten-free pasta under $5"
-   │
-   ▼
-Flask web app ──► Claude Haiku (structured output) ──► QueryPlan JSON
-   │                 (was: Watson intents + entities)    {search_text:"pasta", diet_tags:["gluten-free"], max_price:5}
-   ▼
-Elasticsearch  grocery-products
-   filter:  diet_tags=gluten-free · price<=5 · in_stock_stores=store-1001   (yes/no, cached, not scored)
-   score:   BM25 on name^3/description  +  ELSER semantic  ──► merged with RRF (hybrid)
-            × popularity boost
-   ▼
-Reply + product cards ──► every search logged to  search-logs  ──► Kibana dashboard
+
+**Where Claude fits:** only steps ②–③. It turns the shopper's sentence into a structured plan
+(`search_text`, `diet_tags`, `max_price`, `brand`, …). It never sees the catalog and never ranks products;
+Elasticsearch does all retrieval. The app drops any value Claude returns that isn't in the catalog vocabulary,
+and a rules parser produces the same JSON when there's no API key or the API is down, so search keeps working.
+
+### One search, step by step
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor S as Shopper
+    participant A as Flask app
+    participant C as Claude Haiku
+    participant E as Elasticsearch
+    participant L as search-logs
+    S->>A: "gluten-free pasta under $5"
+    A->>C: sentence + allowed diets, categories, brands
+    C-->>A: {"search_text":"pasta","diet_tags":["gluten-free"],"max_price":5}
+    A->>A: validate against catalog vocabulary
+    A->>E: filters (diet, price ≤ 5, in stock) + BM25 & semantic, merged with RRF
+    E-->>A: ranked products + brand facets
+    A->>L: log sentence, plan, hits, latency
+    A-->>S: product cards + "how the query was built" panel
 ```
+
+### Why `_id` is the SKU
+
+Products are loaded with `_bulk` using the SKU as the document ID. Re-running the loader **overwrites instead of
+duplicating**, updates from a source database (or a Kafka/CDC stream) hit exactly the right document, and lookups
+are direct: `GET grocery-products/_doc/SKU-00002`.
 
 Why the filters live inside **both** retrievers: semantic search alone turns hard rules into "similar enough", so it
 could return regular pasta for a gluten-free ask. Diet, price, brand and stock are facts, so they're filters.
@@ -73,6 +117,48 @@ Image: build for ARM since Ampere is ARM:
 (make the GHCR package public, or add an imagePullSecret). Then open `http://app.<IP>.nip.io` and `http://kibana.<IP>.nip.io`
 (log in as `elastic`, password from `kubectl get secret grocery-es-elastic-user -o jsonpath='{.data.elastic}' | base64 -d`).
 
+## Observability: the app monitors itself (OpenTelemetry → Elastic APM)
+
+The app can send **traces, metrics and logs** about itself to Elastic using OpenTelemetry (`app/telemetry.py`).
+It's off unless configured, so the app runs the same without it.
+
+```mermaid
+flowchart LR
+    app["Flask app<br/>OpenTelemetry SDK"] -->|"OTLP over HTTPS<br/>traces · metrics · logs"| otlp["Elastic managed<br/>OTLP endpoint"]
+    otlp --> apm["Kibana · Observability<br/>APM services · traces · metrics · logs"]
+```
+
+| Signal | What you get |
+|---|---|
+| Traces | each `POST /api/chat` as a waterfall: **understand query** (Claude call) → **search products** (Elasticsearch query) |
+| Metrics | `searches` by mode and understanding source, `searches.zero_results`, `search.duration`, process CPU and memory |
+| Logs | one "search done" line per search, linked to its trace |
+
+Setup: create an **Observability** project in Elastic Cloud, open **Add data → Application → OpenTelemetry**, and put the endpoint and key in `otel.env` (git-ignored):
+
+```
+OTEL_EXPORTER_OTLP_ENDPOINT=https://<project>.ingest.<region>.elastic.cloud:443
+OTEL_EXPORTER_OTLP_HEADERS=Authorization=ApiKey <key>
+```
+
+Requires Python 3.10+ for the OpenTelemetry packages. Start the app and look for `Telemetry on → …`, then open **Applications → Service inventory → grocery-search**.
+
+### What the first traces found (and the fix)
+
+The first trace of `POST /api/chat` showed that the actual product search was only ~15% of the request:
+
+| Span | Before | After | Change |
+|---|---|---|---|
+| `anthropic.messages.create` (Claude) | 991 ms | ~1,000–1,500 ms (varies per call) | none (next target) |
+| `indices.get_mapping` | 418 ms on **every** search | once per process | cached in `index_has_semantic()` |
+| `search` (the product query) | 372 ms | 276 ms | none |
+| `index` (write to `search-logs`) | 677 ms, inside the request | ~580 ms, **after** the response | background thread |
+| Non-LLM part of the request | ~1,470 ms | ~280 ms | about 5× faster |
+
+The log write still appears in the same trace because the background job runs inside a copy of the request's
+context (`contextvars.copy_context()`). It just finishes after the response bar ends. The Claude call is now ~80%
+of each request, so the next step is skipping it for one- or two-word queries that the rules parser handles.
+
 ## 3. Kibana
 
 See [kibana/DASHBOARD.md](kibana/DASHBOARD.md): searches over time, top queries, **zero-result queries**, latency p95, diet demand.
@@ -87,4 +173,3 @@ See [kibana/DASHBOARD.md](kibana/DASHBOARD.md): searches over time, top queries,
 | `app/search.py` | Filters + BM25 + ELSER + RRF, popularity boost, brand facet; degrades to lexical if semantic/RRF fails |
 | `app/main.py` | Flask: `/`, `/api/chat`, `/api/health`; logs every search |
 | `k8s/` | ECK Elasticsearch + Kibana, app Deployment, Ingress, load Job, trial license |
-
