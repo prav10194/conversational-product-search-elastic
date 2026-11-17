@@ -1,0 +1,44 @@
+# Elasticsearch + Kibana managed by the ECK operator, sized for ONE Oracle Always Free
+# Ampere VM (2 OCPU / 12 GB). Single node = no high availability; fine for a demo only.
+apiVersion: elasticsearch.k8s.elastic.co/v1
+kind: Elasticsearch
+metadata:
+  name: grocery
+spec:
+  version: 9.2.0          # use any current 9.x
+  nodeSets:
+  - name: default
+    count: 1
+    config:
+      node.store.allow_mmap: false
+      xpack.ml.use_auto_machine_memory_percent: true
+    podTemplate:
+      spec:
+        containers:
+        - name: elasticsearch
+          resources:
+            requests: {memory: 7Gi, cpu: "1"}
+            limits: {memory: 7Gi}
+    volumeClaimTemplates:
+    - metadata: {name: elasticsearch-data}
+      spec:
+        accessModes: [ReadWriteOnce]
+        resources: {requests: {storage: 20Gi}}
+---
+apiVersion: kibana.k8s.elastic.co/v1
+kind: Kibana
+metadata:
+  name: grocery
+spec:
+  version: 9.2.0
+  count: 1
+  elasticsearchRef: {name: grocery}
+  http:
+    tls: {selfSignedCertificate: {disabled: true}}   # Traefik terminates in front; demo only
+  podTemplate:
+    spec:
+      containers:
+      - name: kibana
+        resources:
+          requests: {memory: 1Gi}
+          limits: {memory: 1.5Gi}

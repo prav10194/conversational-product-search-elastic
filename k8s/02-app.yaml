@@ -1,0 +1,75 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: grocery-search
+spec:
+  replicas: 1
+  selector: {matchLabels: {app: grocery-search}}
+  template:
+    metadata: {labels: {app: grocery-search}}
+    spec:
+      containers:
+      - name: web
+        image: ghcr.io/prav10194/grocery-search:latest   # build + push your own image (see README)
+        ports: [{containerPort: 8080}]
+        env:
+        - {name: ES_URL, value: "https://grocery-es-http:9200"}
+        - {name: ES_USERNAME, value: elastic}
+        - name: ES_PASSWORD           # ECK creates this secret for the built-in elastic user
+          valueFrom: {secretKeyRef: {name: grocery-es-elastic-user, key: elastic}}
+        - {name: ES_CA_CERT, value: /certs/ca.crt}
+        - {name: KIBANA_URL, value: "http://kibana.CHANGE_ME_IP.nip.io"}
+        - name: ANTHROPIC_API_KEY
+          valueFrom: {secretKeyRef: {name: claude, key: api-key, optional: true}}
+        readinessProbe:
+          httpGet: {path: /api/health, port: 8080}
+          initialDelaySeconds: 5
+        resources:
+          requests: {memory: 256Mi, cpu: 100m}
+          limits: {memory: 512Mi}
+        volumeMounts: [{name: es-ca, mountPath: /certs, readOnly: true}]
+      volumes:
+      - name: es-ca
+        secret: {secretName: grocery-es-http-certs-public}
+---
+apiVersion: v1
+kind: Service
+metadata: {name: grocery-search}
+spec:
+  selector: {app: grocery-search}
+  ports: [{port: 80, targetPort: 8080}]
+---
+# Traefik ships with k3s. nip.io turns  app.1.2.3.4.nip.io  into 1.2.3.4 with no DNS setup.
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata: {name: grocery}
+spec:
+  rules:
+  - host: app.CHANGE_ME_IP.nip.io
+    http: {paths: [{path: /, pathType: Prefix, backend: {service: {name: grocery-search, port: {number: 80}}}}]}
+  - host: kibana.CHANGE_ME_IP.nip.io
+    http: {paths: [{path: /, pathType: Prefix, backend: {service: {name: grocery-kb-http, port: {number: 5601}}}}]}
+---
+# One-off job that creates the index and loads the 240 products (rerun with: kubectl delete job load-catalog; kubectl apply ...)
+apiVersion: batch/v1
+kind: Job
+metadata: {name: load-catalog}
+spec:
+  backoffLimit: 4
+  template:
+    spec:
+      restartPolicy: OnFailure
+      containers:
+      - name: load
+        image: ghcr.io/prav10194/grocery-search:latest
+        command: ["python", "-m", "app.setup_index", "--kibana"]
+        env:
+        - {name: ES_URL, value: "https://grocery-es-http:9200"}
+        - name: ES_PASSWORD
+          valueFrom: {secretKeyRef: {name: grocery-es-elastic-user, key: elastic}}
+        - {name: ES_CA_CERT, value: /certs/ca.crt}
+        - {name: KIBANA_URL, value: "http://grocery-kb-http:5601"}
+        volumeMounts: [{name: es-ca, mountPath: /certs, readOnly: true}]
+      volumes:
+      - name: es-ca
+        secret: {secretName: grocery-es-http-certs-public}

@@ -1,0 +1,6046 @@
+[
+ {
+  "sku": "SKU-00001",
+  "name": "Harvest Lane Penne",
+  "brand": "Harvest Lane",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Classic durum wheat penne that holds chunky sauces well. Ready in 11 minutes.",
+  "diet_tags": [],
+  "price": 2.16,
+  "size": "16 oz",
+  "rating": 3.8,
+  "popularity": 152,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00002",
+  "name": "Simply Fresh Gluten-Free Penne",
+  "brand": "Simply Fresh",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Gluten-free penne made from brown rice and corn, with a firm bite that doesn't go mushy.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 1.93,
+  "size": "16 oz",
+  "rating": 4.5,
+  "popularity": 728,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00003",
+  "name": "Harvest Lane Gluten-Free Penne",
+  "brand": "Harvest Lane",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Gluten-free penne made from brown rice and corn, with a firm bite that doesn't go mushy.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 1.75,
+  "size": "16 oz",
+  "rating": 3.8,
+  "popularity": 230,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00004",
+  "name": "Simply Fresh Chickpea Penne",
+  "brand": "Simply Fresh",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Penne made from chickpeas, with 20 g of protein per serving and no gluten.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "vegan"
+  ],
+  "price": 1.3,
+  "size": "16 oz",
+  "rating": 3.8,
+  "popularity": 653,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00005",
+  "name": "Golden Field Chickpea Penne",
+  "brand": "Golden Field",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Penne made from chickpeas, with 20 g of protein per serving and no gluten.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "vegan"
+  ],
+  "price": 2.31,
+  "size": "16 oz",
+  "rating": 4.7,
+  "popularity": 399,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00006",
+  "name": "Morning Mill Chickpea Penne",
+  "brand": "Morning Mill",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Penne made from chickpeas, with 20 g of protein per serving and no gluten.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "vegan"
+  ],
+  "price": 2.07,
+  "size": "16 oz",
+  "rating": 4.5,
+  "popularity": 709,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00007",
+  "name": "Harvest Lane Whole Wheat Penne",
+  "brand": "Harvest Lane",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Whole wheat penne with extra fiber for a heartier weeknight dinner.",
+  "diet_tags": [
+   "vegan"
+  ],
+  "price": 2.27,
+  "size": "16 oz",
+  "rating": 4.6,
+  "popularity": 420,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1004",
+   "store-1006",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00008",
+  "name": "Green Valley Whole Wheat Penne",
+  "brand": "Green Valley",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Whole wheat penne with extra fiber for a heartier weeknight dinner.",
+  "diet_tags": [
+   "vegan"
+  ],
+  "price": 1.71,
+  "size": "16 oz",
+  "rating": 4.8,
+  "popularity": 479,
+  "in_stock_stores": [
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00009",
+  "name": "Peak Nutrition Organic Penne",
+  "brand": "Peak Nutrition",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Organic durum wheat penne, slow-dried in bronze dies.",
+  "diet_tags": [
+   "organic",
+   "vegan"
+  ],
+  "price": 2.72,
+  "size": "16 oz",
+  "rating": 4.0,
+  "popularity": 234,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1007",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00010",
+  "name": "Morning Mill Organic Penne",
+  "brand": "Morning Mill",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Organic durum wheat penne, slow-dried in bronze dies.",
+  "diet_tags": [
+   "organic",
+   "vegan"
+  ],
+  "price": 2.67,
+  "size": "16 oz",
+  "rating": 3.6,
+  "popularity": 173,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00011",
+  "name": "Sunny Acres Spaghetti",
+  "brand": "Sunny Acres",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Long, thin pasta for marinara, meatballs or garlic and olive oil.",
+  "diet_tags": [],
+  "price": 1.41,
+  "size": "16 oz",
+  "rating": 3.6,
+  "popularity": 13,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00012",
+  "name": "Golden Field Spaghetti",
+  "brand": "Golden Field",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Long, thin pasta for marinara, meatballs or garlic and olive oil.",
+  "diet_tags": [],
+  "price": 2.07,
+  "size": "16 oz",
+  "rating": 4.2,
+  "popularity": 807,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00013",
+  "name": "Green Valley Gluten-Free Spaghetti",
+  "brand": "Green Valley",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Gluten-free spaghetti made from corn and rice. Great for family pasta night.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 2.23,
+  "size": "16 oz",
+  "rating": 4.8,
+  "popularity": 97,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00014",
+  "name": "Simply Fresh Lentil Spaghetti",
+  "brand": "Simply Fresh",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Red lentil spaghetti, high in protein and naturally gluten-free.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "vegan"
+  ],
+  "price": 2.0,
+  "size": "16 oz",
+  "rating": 4.0,
+  "popularity": 697,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00015",
+  "name": "Green Valley Lentil Spaghetti",
+  "brand": "Green Valley",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Red lentil spaghetti, high in protein and naturally gluten-free.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "vegan"
+  ],
+  "price": 1.82,
+  "size": "16 oz",
+  "rating": 3.7,
+  "popularity": 235,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1004",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00016",
+  "name": "Sunny Acres Whole Wheat Spaghetti",
+  "brand": "Sunny Acres",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Whole grain spaghetti with a nutty flavor.",
+  "diet_tags": [
+   "vegan"
+  ],
+  "price": 1.1,
+  "size": "16 oz",
+  "rating": 3.8,
+  "popularity": 695,
+  "in_stock_stores": [
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00017",
+  "name": "Nonna's Table Fusilli",
+  "brand": "Nonna's Table",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Spiral pasta that catches pesto and creamy sauces. Good for pasta salad.",
+  "diet_tags": [],
+  "price": 1.55,
+  "size": "16 oz",
+  "rating": 3.5,
+  "popularity": 451,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00018",
+  "name": "Morning Mill Fusilli",
+  "brand": "Morning Mill",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Spiral pasta that catches pesto and creamy sauces. Good for pasta salad.",
+  "diet_tags": [],
+  "price": 2.18,
+  "size": "16 oz",
+  "rating": 4.9,
+  "popularity": 110,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1006",
+   "store-1007",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00019",
+  "name": "Green Valley Gluten-Free Fusilli",
+  "brand": "Green Valley",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Gluten-free fusilli made with quinoa and rice.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 1.88,
+  "size": "16 oz",
+  "rating": 4.0,
+  "popularity": 295,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00020",
+  "name": "Simply Fresh Gluten-Free Fusilli",
+  "brand": "Simply Fresh",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Gluten-free fusilli made with quinoa and rice.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 2.15,
+  "size": "16 oz",
+  "rating": 4.2,
+  "popularity": 25,
+  "in_stock_stores": [
+   "store-1003",
+   "store-1004",
+   "store-1007",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00021",
+  "name": "Green Valley Organic Fusilli",
+  "brand": "Green Valley",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Organic fusilli made from Italian durum wheat.",
+  "diet_tags": [
+   "organic",
+   "vegan"
+  ],
+  "price": 1.74,
+  "size": "16 oz",
+  "rating": 3.4,
+  "popularity": 409,
+  "in_stock_stores": [
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00022",
+  "name": "Morning Mill Organic Fusilli",
+  "brand": "Morning Mill",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Organic fusilli made from Italian durum wheat.",
+  "diet_tags": [
+   "organic",
+   "vegan"
+  ],
+  "price": 2.48,
+  "size": "16 oz",
+  "rating": 4.1,
+  "popularity": 204,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00023",
+  "name": "Harvest Lane Organic Fusilli",
+  "brand": "Harvest Lane",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Organic fusilli made from Italian durum wheat.",
+  "diet_tags": [
+   "organic",
+   "vegan"
+  ],
+  "price": 1.57,
+  "size": "16 oz",
+  "rating": 4.1,
+  "popularity": 951,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00024",
+  "name": "Golden Field Macaroni & Cheese",
+  "brand": "Golden Field",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Creamy boxed mac and cheese, ready in 10 minutes. A kid favorite.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 2.55,
+  "size": "6 oz",
+  "rating": 4.0,
+  "popularity": 607,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00025",
+  "name": "Green Valley Macaroni & Cheese",
+  "brand": "Green Valley",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Creamy boxed mac and cheese, ready in 10 minutes. A kid favorite.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 1.99,
+  "size": "6 oz",
+  "rating": 4.4,
+  "popularity": 317,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00026",
+  "name": "Harvest Lane Macaroni & Cheese",
+  "brand": "Harvest Lane",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Creamy boxed mac and cheese, ready in 10 minutes. A kid favorite.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 1.18,
+  "size": "6 oz",
+  "rating": 3.7,
+  "popularity": 281,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1007"
+  ]
+ },
+ {
+  "sku": "SKU-00027",
+  "name": "Nonna's Table Gluten-Free Macaroni & Cheese",
+  "brand": "Nonna's Table",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Gluten-free rice pasta with a real cheddar cheese sauce.",
+  "diet_tags": [
+   "gluten-free",
+   "vegetarian"
+  ],
+  "price": 2.76,
+  "size": "6 oz",
+  "rating": 4.3,
+  "popularity": 836,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00028",
+  "name": "Simply Fresh Gluten-Free Macaroni & Cheese",
+  "brand": "Simply Fresh",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Gluten-free rice pasta with a real cheddar cheese sauce.",
+  "diet_tags": [
+   "gluten-free",
+   "vegetarian"
+  ],
+  "price": 2.86,
+  "size": "6 oz",
+  "rating": 3.6,
+  "popularity": 298,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00029",
+  "name": "Golden Field Vegan Macaroni & Cheese",
+  "brand": "Golden Field",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Dairy-free mac and cheese with a cashew-based cheese sauce.",
+  "diet_tags": [
+   "dairy-free",
+   "vegan"
+  ],
+  "price": 2.59,
+  "size": "6 oz",
+  "rating": 4.6,
+  "popularity": 55,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1005",
+   "store-1006"
+  ]
+ },
+ {
+  "sku": "SKU-00030",
+  "name": "Simply Fresh No-Boil Lasagna Sheets",
+  "brand": "Simply Fresh",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Oven-ready lasagna sheets, no boiling needed.",
+  "diet_tags": [],
+  "price": 2.72,
+  "size": "9 oz",
+  "rating": 4.8,
+  "popularity": 717,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00031",
+  "name": "Morning Mill No-Boil Lasagna Sheets",
+  "brand": "Morning Mill",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Oven-ready lasagna sheets, no boiling needed.",
+  "diet_tags": [],
+  "price": 2.8,
+  "size": "9 oz",
+  "rating": 3.6,
+  "popularity": 325,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1004",
+   "store-1006",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00032",
+  "name": "Harvest Lane No-Boil Lasagna Sheets",
+  "brand": "Harvest Lane",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Oven-ready lasagna sheets, no boiling needed.",
+  "diet_tags": [],
+  "price": 3.21,
+  "size": "9 oz",
+  "rating": 4.2,
+  "popularity": 905,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00033",
+  "name": "Pure Pantry Gluten-Free Lasagna Sheets",
+  "brand": "Pure Pantry",
+  "category": "pasta",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Gluten-free oven-ready lasagna sheets made from rice flour.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 3.97,
+  "size": "9 oz",
+  "rating": 3.9,
+  "popularity": 963,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00034",
+  "name": "Nonna's Table Marinara Sauce",
+  "brand": "Nonna's Table",
+  "category": "sauces",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Slow-simmered tomato sauce with garlic, basil and olive oil.",
+  "diet_tags": [
+   "vegan"
+  ],
+  "price": 3.39,
+  "size": "24 oz",
+  "rating": 4.6,
+  "popularity": 481,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00035",
+  "name": "Sunny Acres Low Sodium Marinara Sauce",
+  "brand": "Sunny Acres",
+  "category": "sauces",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Marinara with 50% less sodium, still full of tomato flavor.",
+  "diet_tags": [
+   "low-sodium",
+   "vegan"
+  ],
+  "price": 6.37,
+  "size": "24 oz",
+  "rating": 3.8,
+  "popularity": 666,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00036",
+  "name": "Ocean Bay Low Sodium Marinara Sauce",
+  "brand": "Ocean Bay",
+  "category": "sauces",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Marinara with 50% less sodium, still full of tomato flavor.",
+  "diet_tags": [
+   "low-sodium",
+   "vegan"
+  ],
+  "price": 6.35,
+  "size": "24 oz",
+  "rating": 3.8,
+  "popularity": 121,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00037",
+  "name": "Golden Field Low Sodium Marinara Sauce",
+  "brand": "Golden Field",
+  "category": "sauces",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Marinara with 50% less sodium, still full of tomato flavor.",
+  "diet_tags": [
+   "low-sodium",
+   "vegan"
+  ],
+  "price": 6.1,
+  "size": "24 oz",
+  "rating": 3.7,
+  "popularity": 55,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00038",
+  "name": "Ocean Bay Organic Marinara Sauce",
+  "brand": "Ocean Bay",
+  "category": "sauces",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Organic tomatoes, onions and herbs. No added sugar.",
+  "diet_tags": [
+   "organic",
+   "vegan"
+  ],
+  "price": 5.21,
+  "size": "24 oz",
+  "rating": 4.4,
+  "popularity": 344,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00039",
+  "name": "Morning Mill Alfredo Sauce",
+  "brand": "Morning Mill",
+  "category": "sauces",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Rich, creamy parmesan sauce for fettuccine and chicken.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 5.08,
+  "size": "15 oz",
+  "rating": 3.9,
+  "popularity": 225,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00040",
+  "name": "Simply Fresh Alfredo Sauce",
+  "brand": "Simply Fresh",
+  "category": "sauces",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Rich, creamy parmesan sauce for fettuccine and chicken.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 4.98,
+  "size": "15 oz",
+  "rating": 4.8,
+  "popularity": 763,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1005",
+   "store-1006",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00041",
+  "name": "Green Valley Dairy-Free Alfredo Sauce",
+  "brand": "Green Valley",
+  "category": "sauces",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Creamy plant-based alfredo made from cashews.",
+  "diet_tags": [
+   "dairy-free",
+   "vegan"
+  ],
+  "price": 3.37,
+  "size": "15 oz",
+  "rating": 3.5,
+  "popularity": 496,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00042",
+  "name": "Peak Nutrition Dairy-Free Alfredo Sauce",
+  "brand": "Peak Nutrition",
+  "category": "sauces",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Creamy plant-based alfredo made from cashews.",
+  "diet_tags": [
+   "dairy-free",
+   "vegan"
+  ],
+  "price": 4.0,
+  "size": "15 oz",
+  "rating": 3.6,
+  "popularity": 714,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1004",
+   "store-1007",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00043",
+  "name": "Harvest Lane Basil Pesto",
+  "brand": "Harvest Lane",
+  "category": "sauces",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Fresh basil, pine nuts, parmesan and olive oil.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 5.79,
+  "size": "6 oz",
+  "rating": 3.6,
+  "popularity": 146,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00044",
+  "name": "Simply Fresh Basil Pesto",
+  "brand": "Simply Fresh",
+  "category": "sauces",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Fresh basil, pine nuts, parmesan and olive oil.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 5.36,
+  "size": "6 oz",
+  "rating": 4.1,
+  "popularity": 275,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00045",
+  "name": "Green Valley Basil Pesto",
+  "brand": "Green Valley",
+  "category": "sauces",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Fresh basil, pine nuts, parmesan and olive oil.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 4.18,
+  "size": "6 oz",
+  "rating": 3.9,
+  "popularity": 563,
+  "in_stock_stores": [
+   "store-1003",
+   "store-1004",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00046",
+  "name": "Green Valley Vegan Basil Pesto",
+  "brand": "Green Valley",
+  "category": "sauces",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Basil pesto without cheese, made with sunflower seeds. Nut-free.",
+  "diet_tags": [
+   "dairy-free",
+   "vegan"
+  ],
+  "price": 4.54,
+  "size": "6 oz",
+  "rating": 3.9,
+  "popularity": 487,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1004",
+   "store-1005",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00047",
+  "name": "Golden Field Vegan Basil Pesto",
+  "brand": "Golden Field",
+  "category": "sauces",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Basil pesto without cheese, made with sunflower seeds. Nut-free.",
+  "diet_tags": [
+   "dairy-free",
+   "vegan"
+  ],
+  "price": 4.69,
+  "size": "6 oz",
+  "rating": 4.8,
+  "popularity": 315,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00048",
+  "name": "Morning Mill Arrabbiata Sauce",
+  "brand": "Morning Mill",
+  "category": "sauces",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Spicy tomato sauce with red chili flakes and garlic.",
+  "diet_tags": [
+   "vegan"
+  ],
+  "price": 5.52,
+  "size": "24 oz",
+  "rating": 4.8,
+  "popularity": 647,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00049",
+  "name": "Pure Pantry Arrabbiata Sauce",
+  "brand": "Pure Pantry",
+  "category": "sauces",
+  "aisle": "Aisle 7 - Pasta & Sauces",
+  "description": "Spicy tomato sauce with red chili flakes and garlic.",
+  "diet_tags": [
+   "vegan"
+  ],
+  "price": 3.55,
+  "size": "24 oz",
+  "rating": 3.8,
+  "popularity": 345,
+  "in_stock_stores": [
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00050",
+  "name": "Morning Mill Brown Rice",
+  "brand": "Morning Mill",
+  "category": "rice & grains",
+  "aisle": "Aisle 8 - Rice & Grains",
+  "description": "Long grain brown rice, a whole grain side for any meal.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 4.09,
+  "size": "32 oz",
+  "rating": 4.1,
+  "popularity": 777,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00051",
+  "name": "Ocean Bay Brown Rice",
+  "brand": "Ocean Bay",
+  "category": "rice & grains",
+  "aisle": "Aisle 8 - Rice & Grains",
+  "description": "Long grain brown rice, a whole grain side for any meal.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 2.5,
+  "size": "32 oz",
+  "rating": 3.4,
+  "popularity": 166,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1005",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00052",
+  "name": "Ocean Bay Microwave Brown Rice",
+  "brand": "Ocean Bay",
+  "category": "rice & grains",
+  "aisle": "Aisle 8 - Rice & Grains",
+  "description": "Fully cooked brown rice pouch, ready in 90 seconds.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 3.51,
+  "size": "32 oz",
+  "rating": 4.8,
+  "popularity": 745,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1005",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00053",
+  "name": "Sunny Acres Microwave Brown Rice",
+  "brand": "Sunny Acres",
+  "category": "rice & grains",
+  "aisle": "Aisle 8 - Rice & Grains",
+  "description": "Fully cooked brown rice pouch, ready in 90 seconds.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 2.06,
+  "size": "32 oz",
+  "rating": 3.9,
+  "popularity": 703,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00054",
+  "name": "Pure Pantry Microwave Brown Rice",
+  "brand": "Pure Pantry",
+  "category": "rice & grains",
+  "aisle": "Aisle 8 - Rice & Grains",
+  "description": "Fully cooked brown rice pouch, ready in 90 seconds.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 3.74,
+  "size": "32 oz",
+  "rating": 3.9,
+  "popularity": 710,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00055",
+  "name": "Harvest Lane Jasmine Rice",
+  "brand": "Harvest Lane",
+  "category": "rice & grains",
+  "aisle": "Aisle 8 - Rice & Grains",
+  "description": "Fragrant Thai jasmine rice, soft and slightly sticky.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 4.97,
+  "size": "32 oz",
+  "rating": 3.6,
+  "popularity": 993,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00056",
+  "name": "Morning Mill Jasmine Rice",
+  "brand": "Morning Mill",
+  "category": "rice & grains",
+  "aisle": "Aisle 8 - Rice & Grains",
+  "description": "Fragrant Thai jasmine rice, soft and slightly sticky.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 5.4,
+  "size": "32 oz",
+  "rating": 3.8,
+  "popularity": 837,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00057",
+  "name": "Golden Field Organic Jasmine Rice",
+  "brand": "Golden Field",
+  "category": "rice & grains",
+  "aisle": "Aisle 8 - Rice & Grains",
+  "description": "Organic jasmine rice from Thailand.",
+  "diet_tags": [
+   "gluten-free",
+   "organic",
+   "vegan"
+  ],
+  "price": 5.92,
+  "size": "32 oz",
+  "rating": 3.8,
+  "popularity": 485,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00058",
+  "name": "Ocean Bay Organic Jasmine Rice",
+  "brand": "Ocean Bay",
+  "category": "rice & grains",
+  "aisle": "Aisle 8 - Rice & Grains",
+  "description": "Organic jasmine rice from Thailand.",
+  "diet_tags": [
+   "gluten-free",
+   "organic",
+   "vegan"
+  ],
+  "price": 3.61,
+  "size": "32 oz",
+  "rating": 4.6,
+  "popularity": 358,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1005",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00059",
+  "name": "Morning Mill Quinoa",
+  "brand": "Morning Mill",
+  "category": "rice & grains",
+  "aisle": "Aisle 8 - Rice & Grains",
+  "description": "White quinoa, a complete plant protein that cooks in 15 minutes.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "vegan"
+  ],
+  "price": 5.17,
+  "size": "16 oz",
+  "rating": 3.8,
+  "popularity": 497,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00060",
+  "name": "Nonna's Table Quinoa",
+  "brand": "Nonna's Table",
+  "category": "rice & grains",
+  "aisle": "Aisle 8 - Rice & Grains",
+  "description": "White quinoa, a complete plant protein that cooks in 15 minutes.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "vegan"
+  ],
+  "price": 4.42,
+  "size": "16 oz",
+  "rating": 4.3,
+  "popularity": 494,
+  "in_stock_stores": [
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00061",
+  "name": "Ocean Bay Tri-Color Quinoa",
+  "brand": "Ocean Bay",
+  "category": "rice & grains",
+  "aisle": "Aisle 8 - Rice & Grains",
+  "description": "Organic red, white and black quinoa blend.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "organic",
+   "vegan"
+  ],
+  "price": 4.82,
+  "size": "16 oz",
+  "rating": 4.5,
+  "popularity": 333,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00062",
+  "name": "Peak Nutrition Tri-Color Quinoa",
+  "brand": "Peak Nutrition",
+  "category": "rice & grains",
+  "aisle": "Aisle 8 - Rice & Grains",
+  "description": "Organic red, white and black quinoa blend.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "organic",
+   "vegan"
+  ],
+  "price": 6.57,
+  "size": "16 oz",
+  "rating": 3.8,
+  "popularity": 613,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00063",
+  "name": "Simply Fresh Tri-Color Quinoa",
+  "brand": "Simply Fresh",
+  "category": "rice & grains",
+  "aisle": "Aisle 8 - Rice & Grains",
+  "description": "Organic red, white and black quinoa blend.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "organic",
+   "vegan"
+  ],
+  "price": 4.07,
+  "size": "16 oz",
+  "rating": 4.2,
+  "popularity": 290,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1005",
+   "store-1006",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00064",
+  "name": "Nonna's Table Whole Milk",
+  "brand": "Nonna's Table",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Fresh whole milk from local farms.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 5.18,
+  "size": "1 gal",
+  "rating": 4.3,
+  "popularity": 490,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00065",
+  "name": "Golden Field Whole Milk",
+  "brand": "Golden Field",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Fresh whole milk from local farms.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 5.06,
+  "size": "1 gal",
+  "rating": 4.0,
+  "popularity": 85,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00066",
+  "name": "Simply Fresh 2% Reduced Fat Milk",
+  "brand": "Simply Fresh",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "2% milk with vitamins A and D.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 4.91,
+  "size": "1 gal",
+  "rating": 4.3,
+  "popularity": 819,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00067",
+  "name": "Peak Nutrition Lactose-Free Milk",
+  "brand": "Peak Nutrition",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Real milk without the lactose, easy to digest.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 5.4,
+  "size": "1 gal",
+  "rating": 3.5,
+  "popularity": 791,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1004",
+   "store-1005",
+   "store-1007",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00068",
+  "name": "Simply Fresh Organic Whole Milk",
+  "brand": "Simply Fresh",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Organic whole milk from grass-fed cows.",
+  "diet_tags": [
+   "organic",
+   "vegetarian"
+  ],
+  "price": 3.9,
+  "size": "1 gal",
+  "rating": 4.0,
+  "popularity": 715,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00069",
+  "name": "Golden Field Organic Whole Milk",
+  "brand": "Golden Field",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Organic whole milk from grass-fed cows.",
+  "diet_tags": [
+   "organic",
+   "vegetarian"
+  ],
+  "price": 5.43,
+  "size": "1 gal",
+  "rating": 4.8,
+  "popularity": 816,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00070",
+  "name": "Pure Pantry Oat Milk",
+  "brand": "Pure Pantry",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Creamy oat milk that froths well for lattes.",
+  "diet_tags": [
+   "dairy-free",
+   "vegan"
+  ],
+  "price": 5.09,
+  "size": "64 oz",
+  "rating": 4.3,
+  "popularity": 854,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00071",
+  "name": "Nonna's Table Unsweetened Oat Milk",
+  "brand": "Nonna's Table",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Oat milk with no added sugar.",
+  "diet_tags": [
+   "dairy-free",
+   "sugar-free",
+   "vegan"
+  ],
+  "price": 5.28,
+  "size": "64 oz",
+  "rating": 4.5,
+  "popularity": 628,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007"
+  ]
+ },
+ {
+  "sku": "SKU-00072",
+  "name": "Golden Field Unsweetened Oat Milk",
+  "brand": "Golden Field",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Oat milk with no added sugar.",
+  "diet_tags": [
+   "dairy-free",
+   "sugar-free",
+   "vegan"
+  ],
+  "price": 5.4,
+  "size": "64 oz",
+  "rating": 4.9,
+  "popularity": 698,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00073",
+  "name": "Harvest Lane Unsweetened Oat Milk",
+  "brand": "Harvest Lane",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Oat milk with no added sugar.",
+  "diet_tags": [
+   "dairy-free",
+   "sugar-free",
+   "vegan"
+  ],
+  "price": 5.44,
+  "size": "64 oz",
+  "rating": 4.1,
+  "popularity": 428,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00074",
+  "name": "Morning Mill Unsweetened Almond Milk",
+  "brand": "Morning Mill",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Unsweetened almond milk, 30 calories per cup. Contains tree nuts.",
+  "diet_tags": [
+   "dairy-free",
+   "keto",
+   "sugar-free",
+   "vegan"
+  ],
+  "price": 3.07,
+  "size": "64 oz",
+  "rating": 3.5,
+  "popularity": 268,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007"
+  ]
+ },
+ {
+  "sku": "SKU-00075",
+  "name": "Simply Fresh Unsweetened Almond Milk",
+  "brand": "Simply Fresh",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Unsweetened almond milk, 30 calories per cup. Contains tree nuts.",
+  "diet_tags": [
+   "dairy-free",
+   "keto",
+   "sugar-free",
+   "vegan"
+  ],
+  "price": 3.74,
+  "size": "64 oz",
+  "rating": 3.7,
+  "popularity": 380,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1007",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00076",
+  "name": "Nonna's Table Plain Greek Yogurt",
+  "brand": "Nonna's Table",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Thick plain Greek yogurt with 18 g of protein per serving.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "vegetarian"
+  ],
+  "price": 6.92,
+  "size": "32 oz",
+  "rating": 4.3,
+  "popularity": 255,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00077",
+  "name": "Golden Field Plain Greek Yogurt",
+  "brand": "Golden Field",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Thick plain Greek yogurt with 18 g of protein per serving.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "vegetarian"
+  ],
+  "price": 6.84,
+  "size": "32 oz",
+  "rating": 4.4,
+  "popularity": 167,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00078",
+  "name": "Harvest Lane Plain Greek Yogurt",
+  "brand": "Harvest Lane",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Thick plain Greek yogurt with 18 g of protein per serving.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "vegetarian"
+  ],
+  "price": 5.37,
+  "size": "32 oz",
+  "rating": 3.6,
+  "popularity": 205,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1007",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00079",
+  "name": "Ocean Bay Vanilla Greek Yogurt",
+  "brand": "Ocean Bay",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Lightly sweet vanilla Greek yogurt.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "vegetarian"
+  ],
+  "price": 6.6,
+  "size": "32 oz",
+  "rating": 4.1,
+  "popularity": 505,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00080",
+  "name": "Nonna's Table Vanilla Greek Yogurt",
+  "brand": "Nonna's Table",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Lightly sweet vanilla Greek yogurt.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "vegetarian"
+  ],
+  "price": 6.94,
+  "size": "32 oz",
+  "rating": 3.8,
+  "popularity": 402,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00081",
+  "name": "Morning Mill Coconut Greek Yogurt",
+  "brand": "Morning Mill",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Dairy-free coconut yogurt with live cultures.",
+  "diet_tags": [
+   "dairy-free",
+   "vegan"
+  ],
+  "price": 6.89,
+  "size": "32 oz",
+  "rating": 3.6,
+  "popularity": 998,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00082",
+  "name": "Pure Pantry Coconut Greek Yogurt",
+  "brand": "Pure Pantry",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Dairy-free coconut yogurt with live cultures.",
+  "diet_tags": [
+   "dairy-free",
+   "vegan"
+  ],
+  "price": 4.43,
+  "size": "32 oz",
+  "rating": 4.7,
+  "popularity": 168,
+  "in_stock_stores": [
+   "store-1005",
+   "store-1006",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00083",
+  "name": "Nonna's Table Coconut Greek Yogurt",
+  "brand": "Nonna's Table",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Dairy-free coconut yogurt with live cultures.",
+  "diet_tags": [
+   "dairy-free",
+   "vegan"
+  ],
+  "price": 6.08,
+  "size": "32 oz",
+  "rating": 4.4,
+  "popularity": 882,
+  "in_stock_stores": [
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00084",
+  "name": "Peak Nutrition Sharp Cheddar Cheese",
+  "brand": "Peak Nutrition",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Aged sharp cheddar block, great for snacking or melting.",
+  "diet_tags": [
+   "gluten-free",
+   "keto",
+   "vegetarian"
+  ],
+  "price": 2.71,
+  "size": "8 oz",
+  "rating": 4.3,
+  "popularity": 953,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00085",
+  "name": "Pure Pantry Shredded Mild Cheddar Cheese",
+  "brand": "Pure Pantry",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Shredded mild cheddar for tacos and casseroles.",
+  "diet_tags": [
+   "gluten-free",
+   "keto",
+   "vegetarian"
+  ],
+  "price": 2.64,
+  "size": "8 oz",
+  "rating": 4.6,
+  "popularity": 310,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007"
+  ]
+ },
+ {
+  "sku": "SKU-00086",
+  "name": "Ocean Bay Shredded Mild Cheddar Cheese",
+  "brand": "Ocean Bay",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Shredded mild cheddar for tacos and casseroles.",
+  "diet_tags": [
+   "gluten-free",
+   "keto",
+   "vegetarian"
+  ],
+  "price": 4.2,
+  "size": "8 oz",
+  "rating": 4.6,
+  "popularity": 184,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1004",
+   "store-1005",
+   "store-1007",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00087",
+  "name": "Harvest Lane Shredded Mild Cheddar Cheese",
+  "brand": "Harvest Lane",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Shredded mild cheddar for tacos and casseroles.",
+  "diet_tags": [
+   "gluten-free",
+   "keto",
+   "vegetarian"
+  ],
+  "price": 2.93,
+  "size": "8 oz",
+  "rating": 4.1,
+  "popularity": 270,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1005",
+   "store-1006",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00088",
+  "name": "Nonna's Table Plant-Based Cheddar Cheese",
+  "brand": "Nonna's Table",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Dairy-free cheddar-style shreds that melt.",
+  "diet_tags": [
+   "dairy-free",
+   "vegan"
+  ],
+  "price": 5.34,
+  "size": "8 oz",
+  "rating": 4.9,
+  "popularity": 316,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00089",
+  "name": "Morning Mill Salted Butter",
+  "brand": "Morning Mill",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Sweet cream salted butter.",
+  "diet_tags": [
+   "gluten-free",
+   "keto",
+   "vegetarian"
+  ],
+  "price": 5.22,
+  "size": "16 oz",
+  "rating": 4.9,
+  "popularity": 312,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1005",
+   "store-1007",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00090",
+  "name": "Sunny Acres Salted Butter",
+  "brand": "Sunny Acres",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Sweet cream salted butter.",
+  "diet_tags": [
+   "gluten-free",
+   "keto",
+   "vegetarian"
+  ],
+  "price": 6.1,
+  "size": "16 oz",
+  "rating": 4.6,
+  "popularity": 60,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00091",
+  "name": "Pure Pantry Plant Butter Butter",
+  "brand": "Pure Pantry",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Plant-based butter made from olive and avocado oil.",
+  "diet_tags": [
+   "dairy-free",
+   "vegan"
+  ],
+  "price": 6.21,
+  "size": "16 oz",
+  "rating": 4.4,
+  "popularity": 326,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00092",
+  "name": "Golden Field Plant Butter Butter",
+  "brand": "Golden Field",
+  "category": "dairy",
+  "aisle": "Aisle 2 - Dairy",
+  "description": "Plant-based butter made from olive and avocado oil.",
+  "diet_tags": [
+   "dairy-free",
+   "vegan"
+  ],
+  "price": 4.1,
+  "size": "16 oz",
+  "rating": 4.6,
+  "popularity": 907,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1005",
+   "store-1007",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00093",
+  "name": "Ocean Bay White Sandwich Bread",
+  "brand": "Ocean Bay",
+  "category": "bakery",
+  "aisle": "Aisle 1 - Bakery",
+  "description": "Soft white sandwich bread.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 3.64,
+  "size": "20 oz",
+  "rating": 3.5,
+  "popularity": 782,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00094",
+  "name": "Sunny Acres White Sandwich Bread",
+  "brand": "Sunny Acres",
+  "category": "bakery",
+  "aisle": "Aisle 1 - Bakery",
+  "description": "Soft white sandwich bread.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 2.05,
+  "size": "20 oz",
+  "rating": 4.2,
+  "popularity": 475,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00095",
+  "name": "Golden Field White Sandwich Bread",
+  "brand": "Golden Field",
+  "category": "bakery",
+  "aisle": "Aisle 1 - Bakery",
+  "description": "Soft white sandwich bread.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 3.65,
+  "size": "20 oz",
+  "rating": 4.3,
+  "popularity": 975,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00096",
+  "name": "Harvest Lane Whole Wheat Sandwich Bread",
+  "brand": "Harvest Lane",
+  "category": "bakery",
+  "aisle": "Aisle 1 - Bakery",
+  "description": "100% whole wheat bread with no high-fructose corn syrup.",
+  "diet_tags": [
+   "vegan"
+  ],
+  "price": 3.07,
+  "size": "20 oz",
+  "rating": 4.1,
+  "popularity": 109,
+  "in_stock_stores": [
+   "store-1003",
+   "store-1004",
+   "store-1007",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00097",
+  "name": "Peak Nutrition Whole Wheat Sandwich Bread",
+  "brand": "Peak Nutrition",
+  "category": "bakery",
+  "aisle": "Aisle 1 - Bakery",
+  "description": "100% whole wheat bread with no high-fructose corn syrup.",
+  "diet_tags": [
+   "vegan"
+  ],
+  "price": 4.35,
+  "size": "20 oz",
+  "rating": 4.5,
+  "popularity": 978,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00098",
+  "name": "Sunny Acres Gluten-Free Sandwich Bread",
+  "brand": "Sunny Acres",
+  "category": "bakery",
+  "aisle": "Aisle 1 - Bakery",
+  "description": "Gluten-free sandwich bread that doesn't crumble. Keep frozen for freshness.",
+  "diet_tags": [
+   "gluten-free",
+   "vegetarian"
+  ],
+  "price": 2.76,
+  "size": "20 oz",
+  "rating": 4.1,
+  "popularity": 251,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00099",
+  "name": "Nonna's Table Keto Sandwich Bread",
+  "brand": "Nonna's Table",
+  "category": "bakery",
+  "aisle": "Aisle 1 - Bakery",
+  "description": "Low-carb bread with 1 g net carbs per slice.",
+  "diet_tags": [
+   "keto",
+   "vegetarian"
+  ],
+  "price": 2.32,
+  "size": "20 oz",
+  "rating": 3.7,
+  "popularity": 664,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00100",
+  "name": "Peak Nutrition Sourdough Loaf",
+  "brand": "Peak Nutrition",
+  "category": "bakery",
+  "aisle": "Aisle 1 - Bakery",
+  "description": "Crusty sourdough baked fresh in store every morning.",
+  "diet_tags": [
+   "vegan"
+  ],
+  "price": 6.44,
+  "size": "24 oz",
+  "rating": 3.7,
+  "popularity": 802,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1005",
+   "store-1007",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00101",
+  "name": "Green Valley Sourdough Loaf",
+  "brand": "Green Valley",
+  "category": "bakery",
+  "aisle": "Aisle 1 - Bakery",
+  "description": "Crusty sourdough baked fresh in store every morning.",
+  "diet_tags": [
+   "vegan"
+  ],
+  "price": 6.96,
+  "size": "24 oz",
+  "rating": 4.2,
+  "popularity": 827,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00102",
+  "name": "Peak Nutrition Everything Bagels",
+  "brand": "Peak Nutrition",
+  "category": "bakery",
+  "aisle": "Aisle 1 - Bakery",
+  "description": "Chewy everything bagels with sesame, poppy seeds and garlic.",
+  "diet_tags": [
+   "vegan"
+  ],
+  "price": 3.03,
+  "size": "6 ct",
+  "rating": 3.8,
+  "popularity": 139,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00103",
+  "name": "Sunny Acres Everything Bagels",
+  "brand": "Sunny Acres",
+  "category": "bakery",
+  "aisle": "Aisle 1 - Bakery",
+  "description": "Chewy everything bagels with sesame, poppy seeds and garlic.",
+  "diet_tags": [
+   "vegan"
+  ],
+  "price": 3.9,
+  "size": "6 ct",
+  "rating": 3.7,
+  "popularity": 639,
+  "in_stock_stores": [
+   "store-1005",
+   "store-1006",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00104",
+  "name": "Harvest Lane Gluten-Free Bagels",
+  "brand": "Harvest Lane",
+  "category": "bakery",
+  "aisle": "Aisle 1 - Bakery",
+  "description": "Gluten-free plain bagels, best toasted.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 5.0,
+  "size": "6 ct",
+  "rating": 4.7,
+  "popularity": 446,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00105",
+  "name": "Peak Nutrition Flour Tortillas",
+  "brand": "Peak Nutrition",
+  "category": "bakery",
+  "aisle": "Aisle 1 - Bakery",
+  "description": "Soft flour tortillas for burritos and wraps.",
+  "diet_tags": [
+   "vegan"
+  ],
+  "price": 3.78,
+  "size": "10 ct",
+  "rating": 4.0,
+  "popularity": 621,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00106",
+  "name": "Simply Fresh Flour Tortillas",
+  "brand": "Simply Fresh",
+  "category": "bakery",
+  "aisle": "Aisle 1 - Bakery",
+  "description": "Soft flour tortillas for burritos and wraps.",
+  "diet_tags": [
+   "vegan"
+  ],
+  "price": 3.13,
+  "size": "10 ct",
+  "rating": 3.7,
+  "popularity": 357,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00107",
+  "name": "Nonna's Table Corn Tortillas",
+  "brand": "Nonna's Table",
+  "category": "bakery",
+  "aisle": "Aisle 1 - Bakery",
+  "description": "Authentic corn tortillas for street tacos.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 2.23,
+  "size": "10 ct",
+  "rating": 3.5,
+  "popularity": 452,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1005",
+   "store-1006"
+  ]
+ },
+ {
+  "sku": "SKU-00108",
+  "name": "Golden Field Corn Tortillas",
+  "brand": "Golden Field",
+  "category": "bakery",
+  "aisle": "Aisle 1 - Bakery",
+  "description": "Authentic corn tortillas for street tacos.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 4.39,
+  "size": "10 ct",
+  "rating": 4.2,
+  "popularity": 696,
+  "in_stock_stores": [
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00109",
+  "name": "Ocean Bay Low Carb Tortillas",
+  "brand": "Ocean Bay",
+  "category": "bakery",
+  "aisle": "Aisle 1 - Bakery",
+  "description": "Low-carb high-fiber tortillas.",
+  "diet_tags": [
+   "keto",
+   "vegan"
+  ],
+  "price": 3.5,
+  "size": "10 ct",
+  "rating": 3.9,
+  "popularity": 601,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00110",
+  "name": "Peak Nutrition Sea Salt Potato Chips",
+  "brand": "Peak Nutrition",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Kettle-cooked potato chips with sea salt.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 4.11,
+  "size": "8 oz",
+  "rating": 4.7,
+  "popularity": 795,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00111",
+  "name": "Green Valley Sea Salt Potato Chips",
+  "brand": "Green Valley",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Kettle-cooked potato chips with sea salt.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 4.34,
+  "size": "8 oz",
+  "rating": 3.9,
+  "popularity": 195,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00112",
+  "name": "Nonna's Table Baked Potato Chips",
+  "brand": "Nonna's Table",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Baked chips with 65% less fat.",
+  "diet_tags": [
+   "gluten-free",
+   "low-sodium",
+   "vegan"
+  ],
+  "price": 3.24,
+  "size": "8 oz",
+  "rating": 4.5,
+  "popularity": 805,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1005",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00113",
+  "name": "Sunny Acres Baked Potato Chips",
+  "brand": "Sunny Acres",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Baked chips with 65% less fat.",
+  "diet_tags": [
+   "gluten-free",
+   "low-sodium",
+   "vegan"
+  ],
+  "price": 2.66,
+  "size": "8 oz",
+  "rating": 4.1,
+  "popularity": 444,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1005",
+   "store-1007",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00114",
+  "name": "Pure Pantry Baked Potato Chips",
+  "brand": "Pure Pantry",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Baked chips with 65% less fat.",
+  "diet_tags": [
+   "gluten-free",
+   "low-sodium",
+   "vegan"
+  ],
+  "price": 3.19,
+  "size": "8 oz",
+  "rating": 3.6,
+  "popularity": 704,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00115",
+  "name": "Green Valley Tortilla Chips",
+  "brand": "Green Valley",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Crunchy white corn tortilla chips for salsa and guacamole.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 4.03,
+  "size": "11 oz",
+  "rating": 3.8,
+  "popularity": 132,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1007",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00116",
+  "name": "Pure Pantry Tortilla Chips",
+  "brand": "Pure Pantry",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Crunchy white corn tortilla chips for salsa and guacamole.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 3.26,
+  "size": "11 oz",
+  "rating": 4.5,
+  "popularity": 522,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00117",
+  "name": "Golden Field Blue Corn Tortilla Chips",
+  "brand": "Golden Field",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Organic blue corn tortilla chips.",
+  "diet_tags": [
+   "gluten-free",
+   "organic",
+   "vegan"
+  ],
+  "price": 4.19,
+  "size": "11 oz",
+  "rating": 4.5,
+  "popularity": 437,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1005",
+   "store-1007",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00118",
+  "name": "Sunny Acres Blue Corn Tortilla Chips",
+  "brand": "Sunny Acres",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Organic blue corn tortilla chips.",
+  "diet_tags": [
+   "gluten-free",
+   "organic",
+   "vegan"
+  ],
+  "price": 3.93,
+  "size": "11 oz",
+  "rating": 4.4,
+  "popularity": 380,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1004",
+   "store-1007",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00119",
+  "name": "Morning Mill Blue Corn Tortilla Chips",
+  "brand": "Morning Mill",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Organic blue corn tortilla chips.",
+  "diet_tags": [
+   "gluten-free",
+   "organic",
+   "vegan"
+  ],
+  "price": 4.23,
+  "size": "11 oz",
+  "rating": 4.2,
+  "popularity": 415,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00120",
+  "name": "Pure Pantry Pretzels",
+  "brand": "Pure Pantry",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Classic salted mini pretzels.",
+  "diet_tags": [
+   "vegan"
+  ],
+  "price": 2.21,
+  "size": "16 oz",
+  "rating": 3.8,
+  "popularity": 187,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00121",
+  "name": "Green Valley Pretzels",
+  "brand": "Green Valley",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Classic salted mini pretzels.",
+  "diet_tags": [
+   "vegan"
+  ],
+  "price": 3.52,
+  "size": "16 oz",
+  "rating": 4.1,
+  "popularity": 956,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00122",
+  "name": "Ocean Bay Gluten-Free Pretzels",
+  "brand": "Ocean Bay",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Gluten-free pretzel twists made from potato and corn.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 2.7,
+  "size": "16 oz",
+  "rating": 3.5,
+  "popularity": 482,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00123",
+  "name": "Harvest Lane Gluten-Free Pretzels",
+  "brand": "Harvest Lane",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Gluten-free pretzel twists made from potato and corn.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 3.23,
+  "size": "16 oz",
+  "rating": 4.2,
+  "popularity": 483,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1007",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00124",
+  "name": "Simply Fresh Trail Mix",
+  "brand": "Simply Fresh",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Peanuts, almonds, raisins and chocolate pieces. Energy for hikes.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 5.58,
+  "size": "12 oz",
+  "rating": 4.6,
+  "popularity": 867,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00125",
+  "name": "Pure Pantry Trail Mix",
+  "brand": "Pure Pantry",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Peanuts, almonds, raisins and chocolate pieces. Energy for hikes.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 7.47,
+  "size": "12 oz",
+  "rating": 4.2,
+  "popularity": 634,
+  "in_stock_stores": [
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00126",
+  "name": "Harvest Lane Trail Mix",
+  "brand": "Harvest Lane",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Peanuts, almonds, raisins and chocolate pieces. Energy for hikes.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 6.71,
+  "size": "12 oz",
+  "rating": 4.4,
+  "popularity": 63,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00127",
+  "name": "Peak Nutrition Nut-Free Trail Mix",
+  "brand": "Peak Nutrition",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Seeds, dried fruit and pretzels. Safe for school lunches.",
+  "diet_tags": [
+   "nut-free",
+   "vegan"
+  ],
+  "price": 6.32,
+  "size": "12 oz",
+  "rating": 4.8,
+  "popularity": 327,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00128",
+  "name": "Simply Fresh Chocolate Chip Granola Bars",
+  "brand": "Simply Fresh",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Chewy granola bars with chocolate chips.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 3.41,
+  "size": "6 ct",
+  "rating": 3.7,
+  "popularity": 229,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1004",
+   "store-1007",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00129",
+  "name": "Sunny Acres Chocolate Chip Granola Bars",
+  "brand": "Sunny Acres",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Chewy granola bars with chocolate chips.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 3.24,
+  "size": "6 ct",
+  "rating": 4.6,
+  "popularity": 529,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00130",
+  "name": "Harvest Lane Chocolate Chip Granola Bars",
+  "brand": "Harvest Lane",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Chewy granola bars with chocolate chips.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 2.91,
+  "size": "6 ct",
+  "rating": 4.6,
+  "popularity": 799,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00131",
+  "name": "Nonna's Table Protein Granola Bars",
+  "brand": "Nonna's Table",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "12 g protein bars made with peanut butter and oats.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "vegetarian"
+  ],
+  "price": 3.84,
+  "size": "6 ct",
+  "rating": 3.9,
+  "popularity": 838,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00132",
+  "name": "Green Valley Protein Granola Bars",
+  "brand": "Green Valley",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "12 g protein bars made with peanut butter and oats.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "vegetarian"
+  ],
+  "price": 4.92,
+  "size": "6 ct",
+  "rating": 4.6,
+  "popularity": 830,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00133",
+  "name": "Ocean Bay Nut-Free Granola Bars",
+  "brand": "Ocean Bay",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "School-safe oat bars made in a nut-free facility.",
+  "diet_tags": [
+   "nut-free",
+   "vegan"
+  ],
+  "price": 2.71,
+  "size": "6 ct",
+  "rating": 3.6,
+  "popularity": 470,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00134",
+  "name": "Morning Mill Microwave Butter Popcorn",
+  "brand": "Morning Mill",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Movie-theater butter microwave popcorn.",
+  "diet_tags": [
+   "gluten-free",
+   "vegetarian"
+  ],
+  "price": 3.5,
+  "size": "6 ct",
+  "rating": 3.8,
+  "popularity": 93,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00135",
+  "name": "Pure Pantry Lightly Salted Popcorn",
+  "brand": "Pure Pantry",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Air-popped popcorn with a light sprinkle of salt.",
+  "diet_tags": [
+   "gluten-free",
+   "low-sodium",
+   "vegan"
+  ],
+  "price": 3.07,
+  "size": "6 ct",
+  "rating": 4.6,
+  "popularity": 722,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00136",
+  "name": "Harvest Lane Lightly Salted Popcorn",
+  "brand": "Harvest Lane",
+  "category": "snacks",
+  "aisle": "Aisle 10 - Snacks",
+  "description": "Air-popped popcorn with a light sprinkle of salt.",
+  "diet_tags": [
+   "gluten-free",
+   "low-sodium",
+   "vegan"
+  ],
+  "price": 3.6,
+  "size": "6 ct",
+  "rating": 4.5,
+  "popularity": 550,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00137",
+  "name": "Peak Nutrition Bananas",
+  "brand": "Peak Nutrition",
+  "category": "produce",
+  "aisle": "Produce",
+  "description": "Ripe yellow bananas, great for smoothies and lunch boxes.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 0.53,
+  "size": "per lb",
+  "rating": 4.8,
+  "popularity": 621,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00138",
+  "name": "Nonna's Table Bananas",
+  "brand": "Nonna's Table",
+  "category": "produce",
+  "aisle": "Produce",
+  "description": "Ripe yellow bananas, great for smoothies and lunch boxes.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 0.68,
+  "size": "per lb",
+  "rating": 3.8,
+  "popularity": 436,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1005",
+   "store-1006",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00139",
+  "name": "Golden Field Bananas",
+  "brand": "Golden Field",
+  "category": "produce",
+  "aisle": "Produce",
+  "description": "Ripe yellow bananas, great for smoothies and lunch boxes.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 0.66,
+  "size": "per lb",
+  "rating": 4.6,
+  "popularity": 529,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00140",
+  "name": "Sunny Acres Organic Bananas",
+  "brand": "Sunny Acres",
+  "category": "produce",
+  "aisle": "Produce",
+  "description": "Organic Fair Trade bananas.",
+  "diet_tags": [
+   "gluten-free",
+   "organic",
+   "vegan"
+  ],
+  "price": 0.85,
+  "size": "per lb",
+  "rating": 3.9,
+  "popularity": 760,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00141",
+  "name": "Nonna's Table Hass Avocados",
+  "brand": "Nonna's Table",
+  "category": "produce",
+  "aisle": "Produce",
+  "description": "Creamy Hass avocados for guacamole and toast.",
+  "diet_tags": [
+   "gluten-free",
+   "keto",
+   "vegan"
+  ],
+  "price": 1.06,
+  "size": "each",
+  "rating": 4.6,
+  "popularity": 478,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1004",
+   "store-1005",
+   "store-1007"
+  ]
+ },
+ {
+  "sku": "SKU-00142",
+  "name": "Pure Pantry Hass Avocados",
+  "brand": "Pure Pantry",
+  "category": "produce",
+  "aisle": "Produce",
+  "description": "Creamy Hass avocados for guacamole and toast.",
+  "diet_tags": [
+   "gluten-free",
+   "keto",
+   "vegan"
+  ],
+  "price": 1.2,
+  "size": "each",
+  "rating": 3.5,
+  "popularity": 965,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1007",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00143",
+  "name": "Simply Fresh Hass Avocados",
+  "brand": "Simply Fresh",
+  "category": "produce",
+  "aisle": "Produce",
+  "description": "Creamy Hass avocados for guacamole and toast.",
+  "diet_tags": [
+   "gluten-free",
+   "keto",
+   "vegan"
+  ],
+  "price": 1.29,
+  "size": "each",
+  "rating": 4.7,
+  "popularity": 58,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00144",
+  "name": "Pure Pantry Baby Spinach",
+  "brand": "Pure Pantry",
+  "category": "produce",
+  "aisle": "Produce",
+  "description": "Triple-washed baby spinach for salads and smoothies.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 3.88,
+  "size": "5 oz",
+  "rating": 4.0,
+  "popularity": 826,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1007",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00145",
+  "name": "Nonna's Table Baby Spinach",
+  "brand": "Nonna's Table",
+  "category": "produce",
+  "aisle": "Produce",
+  "description": "Triple-washed baby spinach for salads and smoothies.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 3.09,
+  "size": "5 oz",
+  "rating": 3.6,
+  "popularity": 345,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00146",
+  "name": "Nonna's Table Organic Baby Spinach",
+  "brand": "Nonna's Table",
+  "category": "produce",
+  "aisle": "Produce",
+  "description": "Organic baby spinach.",
+  "diet_tags": [
+   "gluten-free",
+   "organic",
+   "vegan"
+  ],
+  "price": 4.55,
+  "size": "5 oz",
+  "rating": 4.8,
+  "popularity": 639,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007"
+  ]
+ },
+ {
+  "sku": "SKU-00147",
+  "name": "Harvest Lane Organic Baby Spinach",
+  "brand": "Harvest Lane",
+  "category": "produce",
+  "aisle": "Produce",
+  "description": "Organic baby spinach.",
+  "diet_tags": [
+   "gluten-free",
+   "organic",
+   "vegan"
+  ],
+  "price": 4.06,
+  "size": "5 oz",
+  "rating": 4.5,
+  "popularity": 173,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00148",
+  "name": "Green Valley Strawberries",
+  "brand": "Green Valley",
+  "category": "produce",
+  "aisle": "Produce",
+  "description": "Sweet, juicy strawberries.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 4.45,
+  "size": "16 oz",
+  "rating": 3.9,
+  "popularity": 402,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00149",
+  "name": "Simply Fresh Honeycrisp Apples",
+  "brand": "Simply Fresh",
+  "category": "produce",
+  "aisle": "Produce",
+  "description": "Crisp, sweet apples for snacking.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 5.19,
+  "size": "3 lb bag",
+  "rating": 4.4,
+  "popularity": 265,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1005",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00150",
+  "name": "Sunny Acres Honeycrisp Apples",
+  "brand": "Sunny Acres",
+  "category": "produce",
+  "aisle": "Produce",
+  "description": "Crisp, sweet apples for snacking.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 5.16,
+  "size": "3 lb bag",
+  "rating": 4.2,
+  "popularity": 278,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00151",
+  "name": "Pure Pantry Baby Carrots",
+  "brand": "Pure Pantry",
+  "category": "produce",
+  "aisle": "Produce",
+  "description": "Peeled baby carrots, ready to dip.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 2.25,
+  "size": "16 oz",
+  "rating": 4.9,
+  "popularity": 337,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00152",
+  "name": "Nonna's Table Baby Carrots",
+  "brand": "Nonna's Table",
+  "category": "produce",
+  "aisle": "Produce",
+  "description": "Peeled baby carrots, ready to dip.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 1.36,
+  "size": "16 oz",
+  "rating": 3.7,
+  "popularity": 152,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00153",
+  "name": "Golden Field Baby Carrots",
+  "brand": "Golden Field",
+  "category": "produce",
+  "aisle": "Produce",
+  "description": "Peeled baby carrots, ready to dip.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 1.68,
+  "size": "16 oz",
+  "rating": 4.6,
+  "popularity": 574,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00154",
+  "name": "Simply Fresh Old Fashioned Rolled Oats",
+  "brand": "Simply Fresh",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Whole grain rolled oats for oatmeal and baking.",
+  "diet_tags": [
+   "vegan"
+  ],
+  "price": 5.47,
+  "size": "42 oz",
+  "rating": 3.5,
+  "popularity": 334,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00155",
+  "name": "Morning Mill Old Fashioned Rolled Oats",
+  "brand": "Morning Mill",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Whole grain rolled oats for oatmeal and baking.",
+  "diet_tags": [
+   "vegan"
+  ],
+  "price": 5.3,
+  "size": "42 oz",
+  "rating": 3.6,
+  "popularity": 524,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00156",
+  "name": "Peak Nutrition Old Fashioned Rolled Oats",
+  "brand": "Peak Nutrition",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Whole grain rolled oats for oatmeal and baking.",
+  "diet_tags": [
+   "vegan"
+  ],
+  "price": 5.84,
+  "size": "42 oz",
+  "rating": 4.2,
+  "popularity": 300,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00157",
+  "name": "Peak Nutrition Gluten-Free Rolled Oats",
+  "brand": "Peak Nutrition",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Certified gluten-free oats, processed in a dedicated facility.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 3.51,
+  "size": "42 oz",
+  "rating": 4.3,
+  "popularity": 933,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00158",
+  "name": "Pure Pantry Gluten-Free Rolled Oats",
+  "brand": "Pure Pantry",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Certified gluten-free oats, processed in a dedicated facility.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 3.63,
+  "size": "42 oz",
+  "rating": 4.3,
+  "popularity": 642,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00159",
+  "name": "Nonna's Table Honey Almond Granola",
+  "brand": "Nonna's Table",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Crunchy honey almond granola clusters.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 5.22,
+  "size": "12 oz",
+  "rating": 3.6,
+  "popularity": 435,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00160",
+  "name": "Golden Field Honey Almond Granola",
+  "brand": "Golden Field",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Crunchy honey almond granola clusters.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 5.34,
+  "size": "12 oz",
+  "rating": 4.7,
+  "popularity": 418,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1006",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00161",
+  "name": "Golden Field Keto Granola",
+  "brand": "Golden Field",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Grain-free granola made from nuts and seeds, no added sugar.",
+  "diet_tags": [
+   "gluten-free",
+   "keto",
+   "sugar-free"
+  ],
+  "price": 4.12,
+  "size": "12 oz",
+  "rating": 3.5,
+  "popularity": 307,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1007",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00162",
+  "name": "Ocean Bay Keto Granola",
+  "brand": "Ocean Bay",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Grain-free granola made from nuts and seeds, no added sugar.",
+  "diet_tags": [
+   "gluten-free",
+   "keto",
+   "sugar-free"
+  ],
+  "price": 3.97,
+  "size": "12 oz",
+  "rating": 3.6,
+  "popularity": 537,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1004",
+   "store-1005",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00163",
+  "name": "Nonna's Table Keto Granola",
+  "brand": "Nonna's Table",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Grain-free granola made from nuts and seeds, no added sugar.",
+  "diet_tags": [
+   "gluten-free",
+   "keto",
+   "sugar-free"
+  ],
+  "price": 5.92,
+  "size": "12 oz",
+  "rating": 3.7,
+  "popularity": 371,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1005",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00164",
+  "name": "Ocean Bay Frosted Flakes Cereal",
+  "brand": "Ocean Bay",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Sweetened corn flakes kids love.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 5.12,
+  "size": "12 oz",
+  "rating": 4.0,
+  "popularity": 913,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00165",
+  "name": "Simply Fresh Frosted Flakes Cereal",
+  "brand": "Simply Fresh",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Sweetened corn flakes kids love.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 4.43,
+  "size": "12 oz",
+  "rating": 3.7,
+  "popularity": 576,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1005",
+   "store-1007",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00166",
+  "name": "Harvest Lane Frosted Flakes Cereal",
+  "brand": "Harvest Lane",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Sweetened corn flakes kids love.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 5.06,
+  "size": "12 oz",
+  "rating": 4.3,
+  "popularity": 635,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1007",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00167",
+  "name": "Simply Fresh High Fiber Cereal",
+  "brand": "Simply Fresh",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Bran cereal with 10 g of fiber per serving.",
+  "diet_tags": [
+   "vegan"
+  ],
+  "price": 4.89,
+  "size": "12 oz",
+  "rating": 3.7,
+  "popularity": 531,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00168",
+  "name": "Sunny Acres High Fiber Cereal",
+  "brand": "Sunny Acres",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Bran cereal with 10 g of fiber per serving.",
+  "diet_tags": [
+   "vegan"
+  ],
+  "price": 4.3,
+  "size": "12 oz",
+  "rating": 3.6,
+  "popularity": 924,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00169",
+  "name": "Simply Fresh Gluten-Free Rice Crisps Cereal",
+  "brand": "Simply Fresh",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Crispy rice cereal, gluten-free.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 4.33,
+  "size": "12 oz",
+  "rating": 4.5,
+  "popularity": 316,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00170",
+  "name": "Peak Nutrition Gluten-Free Rice Crisps Cereal",
+  "brand": "Peak Nutrition",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Crispy rice cereal, gluten-free.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 4.99,
+  "size": "12 oz",
+  "rating": 4.5,
+  "popularity": 714,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00171",
+  "name": "Pure Pantry Buttermilk Pancake Mix",
+  "brand": "Pure Pantry",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Fluffy buttermilk pancakes, just add water.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 2.94,
+  "size": "32 oz",
+  "rating": 4.4,
+  "popularity": 42,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1007",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00172",
+  "name": "Simply Fresh Buttermilk Pancake Mix",
+  "brand": "Simply Fresh",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Fluffy buttermilk pancakes, just add water.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 4.57,
+  "size": "32 oz",
+  "rating": 4.0,
+  "popularity": 803,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1007",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00173",
+  "name": "Morning Mill Buttermilk Pancake Mix",
+  "brand": "Morning Mill",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Fluffy buttermilk pancakes, just add water.",
+  "diet_tags": [
+   "vegetarian"
+  ],
+  "price": 3.94,
+  "size": "32 oz",
+  "rating": 4.0,
+  "popularity": 989,
+  "in_stock_stores": [
+   "store-1003",
+   "store-1005",
+   "store-1006",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00174",
+  "name": "Peak Nutrition Gluten-Free Pancake Mix",
+  "brand": "Peak Nutrition",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Gluten-free pancake and waffle mix.",
+  "diet_tags": [
+   "gluten-free",
+   "vegetarian"
+  ],
+  "price": 3.08,
+  "size": "32 oz",
+  "rating": 3.8,
+  "popularity": 581,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00175",
+  "name": "Nonna's Table Gluten-Free Pancake Mix",
+  "brand": "Nonna's Table",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Gluten-free pancake and waffle mix.",
+  "diet_tags": [
+   "gluten-free",
+   "vegetarian"
+  ],
+  "price": 3.45,
+  "size": "32 oz",
+  "rating": 3.9,
+  "popularity": 966,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00176",
+  "name": "Harvest Lane Protein Pancake Mix",
+  "brand": "Harvest Lane",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Pancake mix with 15 g of protein per serving.",
+  "diet_tags": [
+   "high-protein",
+   "vegetarian"
+  ],
+  "price": 5.37,
+  "size": "32 oz",
+  "rating": 3.5,
+  "popularity": 956,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00177",
+  "name": "Ocean Bay Protein Pancake Mix",
+  "brand": "Ocean Bay",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Pancake mix with 15 g of protein per serving.",
+  "diet_tags": [
+   "high-protein",
+   "vegetarian"
+  ],
+  "price": 2.91,
+  "size": "32 oz",
+  "rating": 4.3,
+  "popularity": 610,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1004",
+   "store-1006",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00178",
+  "name": "Golden Field Creamy Peanut Butter",
+  "brand": "Golden Field",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Smooth peanut butter. Contains peanuts.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 3.53,
+  "size": "16 oz",
+  "rating": 4.5,
+  "popularity": 112,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00179",
+  "name": "Sunny Acres Natural Crunchy Peanut Butter",
+  "brand": "Sunny Acres",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Just peanuts and salt, no added sugar.",
+  "diet_tags": [
+   "gluten-free",
+   "sugar-free",
+   "vegan"
+  ],
+  "price": 4.11,
+  "size": "16 oz",
+  "rating": 4.8,
+  "popularity": 101,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00180",
+  "name": "Ocean Bay Natural Crunchy Peanut Butter",
+  "brand": "Ocean Bay",
+  "category": "breakfast",
+  "aisle": "Aisle 5 - Breakfast",
+  "description": "Just peanuts and salt, no added sugar.",
+  "diet_tags": [
+   "gluten-free",
+   "sugar-free",
+   "vegan"
+  ],
+  "price": 2.97,
+  "size": "16 oz",
+  "rating": 4.5,
+  "popularity": 903,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1005",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00181",
+  "name": "Ocean Bay Medium Roast Ground Coffee",
+  "brand": "Ocean Bay",
+  "category": "beverages",
+  "aisle": "Aisle 12 - Beverages",
+  "description": "Smooth medium roast with chocolate notes.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 10.95,
+  "size": "12 oz",
+  "rating": 4.2,
+  "popularity": 515,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1005",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00182",
+  "name": "Nonna's Table Medium Roast Ground Coffee",
+  "brand": "Nonna's Table",
+  "category": "beverages",
+  "aisle": "Aisle 12 - Beverages",
+  "description": "Smooth medium roast with chocolate notes.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 7.65,
+  "size": "12 oz",
+  "rating": 4.5,
+  "popularity": 673,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00183",
+  "name": "Pure Pantry Decaf Ground Coffee",
+  "brand": "Pure Pantry",
+  "category": "beverages",
+  "aisle": "Aisle 12 - Beverages",
+  "description": "Swiss Water decaf, full flavor without the caffeine.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 10.13,
+  "size": "12 oz",
+  "rating": 4.2,
+  "popularity": 98,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00184",
+  "name": "Morning Mill Decaf Ground Coffee",
+  "brand": "Morning Mill",
+  "category": "beverages",
+  "aisle": "Aisle 12 - Beverages",
+  "description": "Swiss Water decaf, full flavor without the caffeine.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 7.3,
+  "size": "12 oz",
+  "rating": 3.8,
+  "popularity": 781,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00185",
+  "name": "Harvest Lane Organic Dark Roast Ground Coffee",
+  "brand": "Harvest Lane",
+  "category": "beverages",
+  "aisle": "Aisle 12 - Beverages",
+  "description": "Bold organic dark roast.",
+  "diet_tags": [
+   "gluten-free",
+   "organic",
+   "vegan"
+  ],
+  "price": 9.58,
+  "size": "12 oz",
+  "rating": 3.6,
+  "popularity": 712,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1005",
+   "store-1006",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00186",
+  "name": "Golden Field Organic Dark Roast Ground Coffee",
+  "brand": "Golden Field",
+  "category": "beverages",
+  "aisle": "Aisle 12 - Beverages",
+  "description": "Bold organic dark roast.",
+  "diet_tags": [
+   "gluten-free",
+   "organic",
+   "vegan"
+  ],
+  "price": 9.65,
+  "size": "12 oz",
+  "rating": 4.1,
+  "popularity": 630,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1005",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00187",
+  "name": "Peak Nutrition Green Tea",
+  "brand": "Peak Nutrition",
+  "category": "beverages",
+  "aisle": "Aisle 12 - Beverages",
+  "description": "Smooth green tea bags.",
+  "diet_tags": [
+   "gluten-free",
+   "sugar-free",
+   "vegan"
+  ],
+  "price": 3.81,
+  "size": "20 ct",
+  "rating": 4.2,
+  "popularity": 380,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1007",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00188",
+  "name": "Golden Field Green Tea",
+  "brand": "Golden Field",
+  "category": "beverages",
+  "aisle": "Aisle 12 - Beverages",
+  "description": "Smooth green tea bags.",
+  "diet_tags": [
+   "gluten-free",
+   "sugar-free",
+   "vegan"
+  ],
+  "price": 3.87,
+  "size": "20 ct",
+  "rating": 4.2,
+  "popularity": 596,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00189",
+  "name": "Peak Nutrition Lime Sparkling Water",
+  "brand": "Peak Nutrition",
+  "category": "beverages",
+  "aisle": "Aisle 12 - Beverages",
+  "description": "Zero-calorie lime sparkling water.",
+  "diet_tags": [
+   "gluten-free",
+   "sugar-free",
+   "vegan"
+  ],
+  "price": 3.73,
+  "size": "12 pk",
+  "rating": 4.2,
+  "popularity": 838,
+  "in_stock_stores": [
+   "store-1003",
+   "store-1004",
+   "store-1007",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00190",
+  "name": "Nonna's Table Lime Sparkling Water",
+  "brand": "Nonna's Table",
+  "category": "beverages",
+  "aisle": "Aisle 12 - Beverages",
+  "description": "Zero-calorie lime sparkling water.",
+  "diet_tags": [
+   "gluten-free",
+   "sugar-free",
+   "vegan"
+  ],
+  "price": 4.91,
+  "size": "12 pk",
+  "rating": 4.2,
+  "popularity": 698,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00191",
+  "name": "Simply Fresh Berry Sparkling Water",
+  "brand": "Simply Fresh",
+  "category": "beverages",
+  "aisle": "Aisle 12 - Beverages",
+  "description": "Berry sparkling water, no sweeteners.",
+  "diet_tags": [
+   "gluten-free",
+   "sugar-free",
+   "vegan"
+  ],
+  "price": 5.99,
+  "size": "12 pk",
+  "rating": 4.8,
+  "popularity": 80,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1007",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00192",
+  "name": "Nonna's Table Not From Concentrate Orange Juice",
+  "brand": "Nonna's Table",
+  "category": "beverages",
+  "aisle": "Aisle 12 - Beverages",
+  "description": "100% orange juice, no pulp.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 3.2,
+  "size": "52 oz",
+  "rating": 4.8,
+  "popularity": 905,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00193",
+  "name": "Morning Mill Not From Concentrate Orange Juice",
+  "brand": "Morning Mill",
+  "category": "beverages",
+  "aisle": "Aisle 12 - Beverages",
+  "description": "100% orange juice, no pulp.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 5.45,
+  "size": "52 oz",
+  "rating": 4.7,
+  "popularity": 784,
+  "in_stock_stores": [
+   "store-1005",
+   "store-1007",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00194",
+  "name": "Simply Fresh Not From Concentrate Orange Juice",
+  "brand": "Simply Fresh",
+  "category": "beverages",
+  "aisle": "Aisle 12 - Beverages",
+  "description": "100% orange juice, no pulp.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 3.95,
+  "size": "52 oz",
+  "rating": 3.7,
+  "popularity": 481,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007"
+  ]
+ },
+ {
+  "sku": "SKU-00195",
+  "name": "Peak Nutrition Ginger Kombucha",
+  "brand": "Peak Nutrition",
+  "category": "beverages",
+  "aisle": "Aisle 12 - Beverages",
+  "description": "Organic ginger kombucha with live probiotics.",
+  "diet_tags": [
+   "gluten-free",
+   "organic",
+   "vegan"
+  ],
+  "price": 3.23,
+  "size": "16 oz",
+  "rating": 3.6,
+  "popularity": 44,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00196",
+  "name": "Harvest Lane Ginger Kombucha",
+  "brand": "Harvest Lane",
+  "category": "beverages",
+  "aisle": "Aisle 12 - Beverages",
+  "description": "Organic ginger kombucha with live probiotics.",
+  "diet_tags": [
+   "gluten-free",
+   "organic",
+   "vegan"
+  ],
+  "price": 3.28,
+  "size": "16 oz",
+  "rating": 3.7,
+  "popularity": 894,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00197",
+  "name": "Green Valley Ginger Kombucha",
+  "brand": "Green Valley",
+  "category": "beverages",
+  "aisle": "Aisle 12 - Beverages",
+  "description": "Organic ginger kombucha with live probiotics.",
+  "diet_tags": [
+   "gluten-free",
+   "organic",
+   "vegan"
+  ],
+  "price": 3.4,
+  "size": "16 oz",
+  "rating": 3.6,
+  "popularity": 686,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1007",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00198",
+  "name": "Simply Fresh Pepperoni Pizza",
+  "brand": "Simply Fresh",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Rising crust pepperoni pizza.",
+  "diet_tags": [],
+  "price": 8.86,
+  "size": "each",
+  "rating": 4.8,
+  "popularity": 697,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00199",
+  "name": "Nonna's Table Pepperoni Pizza",
+  "brand": "Nonna's Table",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Rising crust pepperoni pizza.",
+  "diet_tags": [],
+  "price": 4.92,
+  "size": "each",
+  "rating": 4.2,
+  "popularity": 256,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00200",
+  "name": "Harvest Lane Pepperoni Pizza",
+  "brand": "Harvest Lane",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Rising crust pepperoni pizza.",
+  "diet_tags": [],
+  "price": 5.21,
+  "size": "each",
+  "rating": 3.7,
+  "popularity": 672,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1005",
+   "store-1006",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00201",
+  "name": "Harvest Lane Gluten-Free Margherita Pizza",
+  "brand": "Harvest Lane",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Margherita pizza on a cauliflower and rice crust, gluten-free.",
+  "diet_tags": [
+   "gluten-free",
+   "vegetarian"
+  ],
+  "price": 5.89,
+  "size": "each",
+  "rating": 4.3,
+  "popularity": 50,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00202",
+  "name": "Ocean Bay Gluten-Free Margherita Pizza",
+  "brand": "Ocean Bay",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Margherita pizza on a cauliflower and rice crust, gluten-free.",
+  "diet_tags": [
+   "gluten-free",
+   "vegetarian"
+  ],
+  "price": 8.81,
+  "size": "each",
+  "rating": 3.6,
+  "popularity": 782,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00203",
+  "name": "Nonna's Table Vegan Veggie Pizza",
+  "brand": "Nonna's Table",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Roasted vegetable pizza with dairy-free cheese.",
+  "diet_tags": [
+   "dairy-free",
+   "vegan"
+  ],
+  "price": 5.54,
+  "size": "each",
+  "rating": 3.9,
+  "popularity": 913,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00204",
+  "name": "Simply Fresh Vegan Veggie Pizza",
+  "brand": "Simply Fresh",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Roasted vegetable pizza with dairy-free cheese.",
+  "diet_tags": [
+   "dairy-free",
+   "vegan"
+  ],
+  "price": 5.56,
+  "size": "each",
+  "rating": 3.5,
+  "popularity": 894,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1005",
+   "store-1007",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00205",
+  "name": "Sunny Acres Vegan Veggie Pizza",
+  "brand": "Sunny Acres",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Roasted vegetable pizza with dairy-free cheese.",
+  "diet_tags": [
+   "dairy-free",
+   "vegan"
+  ],
+  "price": 6.9,
+  "size": "each",
+  "rating": 4.0,
+  "popularity": 166,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007"
+  ]
+ },
+ {
+  "sku": "SKU-00206",
+  "name": "Simply Fresh Vanilla Bean Ice Cream",
+  "brand": "Simply Fresh",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Creamy vanilla bean ice cream.",
+  "diet_tags": [
+   "gluten-free",
+   "vegetarian"
+  ],
+  "price": 5.79,
+  "size": "1.5 qt",
+  "rating": 4.1,
+  "popularity": 750,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00207",
+  "name": "Sunny Acres Vanilla Bean Ice Cream",
+  "brand": "Sunny Acres",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Creamy vanilla bean ice cream.",
+  "diet_tags": [
+   "gluten-free",
+   "vegetarian"
+  ],
+  "price": 4.05,
+  "size": "1.5 qt",
+  "rating": 4.7,
+  "popularity": 667,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1007",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00208",
+  "name": "Ocean Bay Vanilla Bean Ice Cream",
+  "brand": "Ocean Bay",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Creamy vanilla bean ice cream.",
+  "diet_tags": [
+   "gluten-free",
+   "vegetarian"
+  ],
+  "price": 5.5,
+  "size": "1.5 qt",
+  "rating": 4.5,
+  "popularity": 432,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00209",
+  "name": "Sunny Acres Oat Milk Chocolate Ice Cream",
+  "brand": "Sunny Acres",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Dairy-free chocolate frozen dessert made with oat milk.",
+  "diet_tags": [
+   "dairy-free",
+   "vegan"
+  ],
+  "price": 5.48,
+  "size": "1.5 qt",
+  "rating": 3.4,
+  "popularity": 554,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00210",
+  "name": "Harvest Lane Oat Milk Chocolate Ice Cream",
+  "brand": "Harvest Lane",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Dairy-free chocolate frozen dessert made with oat milk.",
+  "diet_tags": [
+   "dairy-free",
+   "vegan"
+  ],
+  "price": 5.01,
+  "size": "1.5 qt",
+  "rating": 4.4,
+  "popularity": 450,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00211",
+  "name": "Nonna's Table Oat Milk Chocolate Ice Cream",
+  "brand": "Nonna's Table",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Dairy-free chocolate frozen dessert made with oat milk.",
+  "diet_tags": [
+   "dairy-free",
+   "vegan"
+  ],
+  "price": 4.3,
+  "size": "1.5 qt",
+  "rating": 4.0,
+  "popularity": 392,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00212",
+  "name": "Morning Mill Keto Mint Chip Ice Cream",
+  "brand": "Morning Mill",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Low-carb mint chip ice cream, no added sugar.",
+  "diet_tags": [
+   "keto",
+   "sugar-free",
+   "vegetarian"
+  ],
+  "price": 4.64,
+  "size": "1.5 qt",
+  "rating": 4.2,
+  "popularity": 67,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00213",
+  "name": "Green Valley Mixed Vegetables",
+  "brand": "Green Valley",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Frozen corn, peas, carrots and green beans.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 1.91,
+  "size": "16 oz",
+  "rating": 4.8,
+  "popularity": 710,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00214",
+  "name": "Nonna's Table Mixed Vegetables",
+  "brand": "Nonna's Table",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Frozen corn, peas, carrots and green beans.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 2.94,
+  "size": "16 oz",
+  "rating": 4.3,
+  "popularity": 780,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00215",
+  "name": "Golden Field Veggie Burgers",
+  "brand": "Golden Field",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Plant-based burgers that grill like beef.",
+  "diet_tags": [
+   "high-protein",
+   "vegan"
+  ],
+  "price": 6.24,
+  "size": "4 ct",
+  "rating": 3.9,
+  "popularity": 110,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00216",
+  "name": "Simply Fresh Veggie Burgers",
+  "brand": "Simply Fresh",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Plant-based burgers that grill like beef.",
+  "diet_tags": [
+   "high-protein",
+   "vegan"
+  ],
+  "price": 6.91,
+  "size": "4 ct",
+  "rating": 3.9,
+  "popularity": 659,
+  "in_stock_stores": [
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00217",
+  "name": "Pure Pantry Black Bean Veggie Burgers",
+  "brand": "Pure Pantry",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Black bean burgers with corn and peppers.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 6.32,
+  "size": "4 ct",
+  "rating": 3.8,
+  "popularity": 262,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00218",
+  "name": "Morning Mill Black Bean Veggie Burgers",
+  "brand": "Morning Mill",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Black bean burgers with corn and peppers.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 4.32,
+  "size": "4 ct",
+  "rating": 3.4,
+  "popularity": 325,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00219",
+  "name": "Golden Field Black Bean Veggie Burgers",
+  "brand": "Golden Field",
+  "category": "frozen",
+  "aisle": "Aisle 14 - Frozen",
+  "description": "Black bean burgers with corn and peppers.",
+  "diet_tags": [
+   "gluten-free",
+   "vegan"
+  ],
+  "price": 5.35,
+  "size": "4 ct",
+  "rating": 4.2,
+  "popularity": 427,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1005",
+   "store-1006"
+  ]
+ },
+ {
+  "sku": "SKU-00220",
+  "name": "Peak Nutrition Boneless Skinless Chicken Breast",
+  "brand": "Peak Nutrition",
+  "category": "meat & seafood",
+  "aisle": "Meat & Seafood",
+  "description": "Fresh boneless chicken breasts, no added hormones.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "keto"
+  ],
+  "price": 4.79,
+  "size": "per lb",
+  "rating": 3.9,
+  "popularity": 404,
+  "in_stock_stores": [
+   "store-1005",
+   "store-1007",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00221",
+  "name": "Simply Fresh Organic Chicken Breast",
+  "brand": "Simply Fresh",
+  "category": "meat & seafood",
+  "aisle": "Meat & Seafood",
+  "description": "Organic free-range chicken breasts.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "keto",
+   "organic"
+  ],
+  "price": 6.57,
+  "size": "per lb",
+  "rating": 4.9,
+  "popularity": 595,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00222",
+  "name": "Golden Field 85% Lean Ground Beef",
+  "brand": "Golden Field",
+  "category": "meat & seafood",
+  "aisle": "Meat & Seafood",
+  "description": "Fresh ground beef for burgers and tacos.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "keto"
+  ],
+  "price": 5.3,
+  "size": "per lb",
+  "rating": 4.0,
+  "popularity": 505,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00223",
+  "name": "Pure Pantry 85% Lean Ground Beef",
+  "brand": "Pure Pantry",
+  "category": "meat & seafood",
+  "aisle": "Meat & Seafood",
+  "description": "Fresh ground beef for burgers and tacos.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "keto"
+  ],
+  "price": 4.91,
+  "size": "per lb",
+  "rating": 4.8,
+  "popularity": 350,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00224",
+  "name": "Sunny Acres Grass-Fed Ground Beef",
+  "brand": "Sunny Acres",
+  "category": "meat & seafood",
+  "aisle": "Meat & Seafood",
+  "description": "100% grass-fed ground beef.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "keto",
+   "organic"
+  ],
+  "price": 7.94,
+  "size": "per lb",
+  "rating": 3.8,
+  "popularity": 721,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00225",
+  "name": "Pure Pantry Grass-Fed Ground Beef",
+  "brand": "Pure Pantry",
+  "category": "meat & seafood",
+  "aisle": "Meat & Seafood",
+  "description": "100% grass-fed ground beef.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "keto",
+   "organic"
+  ],
+  "price": 6.64,
+  "size": "per lb",
+  "rating": 4.2,
+  "popularity": 708,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00226",
+  "name": "Morning Mill Grass-Fed Ground Beef",
+  "brand": "Morning Mill",
+  "category": "meat & seafood",
+  "aisle": "Meat & Seafood",
+  "description": "100% grass-fed ground beef.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "keto",
+   "organic"
+  ],
+  "price": 6.92,
+  "size": "per lb",
+  "rating": 3.6,
+  "popularity": 320,
+  "in_stock_stores": [
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1007",
+   "store-1008"
+  ]
+ },
+ {
+  "sku": "SKU-00227",
+  "name": "Nonna's Table Atlantic Salmon Fillet",
+  "brand": "Nonna's Table",
+  "category": "meat & seafood",
+  "aisle": "Meat & Seafood",
+  "description": "Fresh Atlantic salmon, rich in omega-3.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "keto"
+  ],
+  "price": 12.95,
+  "size": "per lb",
+  "rating": 4.1,
+  "popularity": 420,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00228",
+  "name": "Sunny Acres Wild Sockeye Salmon Fillet",
+  "brand": "Sunny Acres",
+  "category": "meat & seafood",
+  "aisle": "Meat & Seafood",
+  "description": "Wild-caught sockeye salmon.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "keto"
+  ],
+  "price": 11.23,
+  "size": "per lb",
+  "rating": 3.5,
+  "popularity": 670,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00229",
+  "name": "Pure Pantry Wild Sockeye Salmon Fillet",
+  "brand": "Pure Pantry",
+  "category": "meat & seafood",
+  "aisle": "Meat & Seafood",
+  "description": "Wild-caught sockeye salmon.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "keto"
+  ],
+  "price": 10.23,
+  "size": "per lb",
+  "rating": 4.0,
+  "popularity": 800,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00230",
+  "name": "Golden Field Frozen Peeled Shrimp",
+  "brand": "Golden Field",
+  "category": "meat & seafood",
+  "aisle": "Meat & Seafood",
+  "description": "Peeled and deveined frozen shrimp, quick to cook.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "keto"
+  ],
+  "price": 11.16,
+  "size": "16 oz",
+  "rating": 4.5,
+  "popularity": 366,
+  "in_stock_stores": [
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1008",
+   "store-1009"
+  ]
+ },
+ {
+  "sku": "SKU-00231",
+  "name": "Golden Field Extra Firm Tofu",
+  "brand": "Golden Field",
+  "category": "plant protein",
+  "aisle": "Aisle 3 - Plant Protein",
+  "description": "Extra firm tofu for stir-fry and baking.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "vegan"
+  ],
+  "price": 2.34,
+  "size": "14 oz",
+  "rating": 3.9,
+  "popularity": 839,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00232",
+  "name": "Nonna's Table Extra Firm Tofu",
+  "brand": "Nonna's Table",
+  "category": "plant protein",
+  "aisle": "Aisle 3 - Plant Protein",
+  "description": "Extra firm tofu for stir-fry and baking.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "vegan"
+  ],
+  "price": 2.74,
+  "size": "14 oz",
+  "rating": 3.9,
+  "popularity": 446,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00233",
+  "name": "Simply Fresh Extra Firm Tofu",
+  "brand": "Simply Fresh",
+  "category": "plant protein",
+  "aisle": "Aisle 3 - Plant Protein",
+  "description": "Extra firm tofu for stir-fry and baking.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "vegan"
+  ],
+  "price": 1.85,
+  "size": "14 oz",
+  "rating": 4.3,
+  "popularity": 212,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00234",
+  "name": "Golden Field Organic Silken Tofu",
+  "brand": "Golden Field",
+  "category": "plant protein",
+  "aisle": "Aisle 3 - Plant Protein",
+  "description": "Silken tofu for smoothies and desserts.",
+  "diet_tags": [
+   "gluten-free",
+   "organic",
+   "vegan"
+  ],
+  "price": 3.63,
+  "size": "14 oz",
+  "rating": 4.2,
+  "popularity": 384,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1006",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00235",
+  "name": "Peak Nutrition Organic Silken Tofu",
+  "brand": "Peak Nutrition",
+  "category": "plant protein",
+  "aisle": "Aisle 3 - Plant Protein",
+  "description": "Silken tofu for smoothies and desserts.",
+  "diet_tags": [
+   "gluten-free",
+   "organic",
+   "vegan"
+  ],
+  "price": 3.1,
+  "size": "14 oz",
+  "rating": 4.4,
+  "popularity": 621,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00236",
+  "name": "Peak Nutrition Tempeh",
+  "brand": "Peak Nutrition",
+  "category": "plant protein",
+  "aisle": "Aisle 3 - Plant Protein",
+  "description": "Fermented soybean tempeh with a nutty taste.",
+  "diet_tags": [
+   "high-protein",
+   "vegan"
+  ],
+  "price": 3.51,
+  "size": "8 oz",
+  "rating": 3.9,
+  "popularity": 254,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1005",
+   "store-1006",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00237",
+  "name": "Golden Field Tempeh",
+  "brand": "Golden Field",
+  "category": "plant protein",
+  "aisle": "Aisle 3 - Plant Protein",
+  "description": "Fermented soybean tempeh with a nutty taste.",
+  "diet_tags": [
+   "high-protein",
+   "vegan"
+  ],
+  "price": 3.08,
+  "size": "8 oz",
+  "rating": 4.3,
+  "popularity": 598,
+  "in_stock_stores": [
+   "store-1002",
+   "store-1003",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00238",
+  "name": "Ocean Bay Chickpeas",
+  "brand": "Ocean Bay",
+  "category": "plant protein",
+  "aisle": "Aisle 3 - Plant Protein",
+  "description": "No-salt-added canned chickpeas for hummus and curries.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "low-sodium",
+   "vegan"
+  ],
+  "price": 1.18,
+  "size": "15 oz",
+  "rating": 4.1,
+  "popularity": 64,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1003",
+   "store-1004",
+   "store-1005",
+   "store-1006",
+   "store-1007",
+   "store-1008",
+   "store-1009",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00239",
+  "name": "Pure Pantry Chickpeas",
+  "brand": "Pure Pantry",
+  "category": "plant protein",
+  "aisle": "Aisle 3 - Plant Protein",
+  "description": "No-salt-added canned chickpeas for hummus and curries.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "low-sodium",
+   "vegan"
+  ],
+  "price": 1.54,
+  "size": "15 oz",
+  "rating": 4.1,
+  "popularity": 181,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1003",
+   "store-1004",
+   "store-1010"
+  ]
+ },
+ {
+  "sku": "SKU-00240",
+  "name": "Simply Fresh Chickpeas",
+  "brand": "Simply Fresh",
+  "category": "plant protein",
+  "aisle": "Aisle 3 - Plant Protein",
+  "description": "No-salt-added canned chickpeas for hummus and curries.",
+  "diet_tags": [
+   "gluten-free",
+   "high-protein",
+   "low-sodium",
+   "vegan"
+  ],
+  "price": 0.93,
+  "size": "15 oz",
+  "rating": 3.7,
+  "popularity": 305,
+  "in_stock_stores": [
+   "store-1001",
+   "store-1002",
+   "store-1005",
+   "store-1008",
+   "store-1010"
+  ]
+ }
+]

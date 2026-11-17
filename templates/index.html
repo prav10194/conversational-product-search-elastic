@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grocery Search Assistant</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <div class="brand">🛒 Grocery Search Assistant <span class="tag">personal rebuild · synthetic data</span></div>
+    <div class="controls">
+      <label>Store
+        <select id="store">{% for s in stores %}<option {% if s == default_store %}selected{% endif %}>{{ s }}</option>{% endfor %}</select>
+      </label>
+      <label>Mode
+        <select id="mode"><option value="hybrid">hybrid</option><option value="lexical">lexical (BM25)</option><option value="semantic">semantic (ELSER)</option></select>
+      </label>
+      <a href="{{ kibana_url }}" target="_blank" rel="noopener">Kibana ↗</a>
+      <span id="health" class="dot" title="checking…"></span>
+    </div>
+  </header>
+
+  <div class="layout">
+  <aside id="pipeline" aria-label="How your query was built">
+    <h2>How your query was built</h2>
+    <p class="hint">Send a search and each step appears here: your words → understanding → plan → filters → scoring → the exact Elasticsearch request.</p>
+  </aside>
+  <section class="right">
+    <form id="composer">
+      <input id="input" autocomplete="off" placeholder="What are you looking for?" maxlength="500">
+      <button type="submit">Search</button>
+    </form>
+    <div class="starters">Try:
+      <button type="button" class="chip">gluten-free pasta under $5</button>
+      <button type="button" class="chip">vegan snacks</button>
+      <button type="button" class="chip">Ocean Bay salmon</button>
+      <button type="button" class="chip">high protein breakfast</button>
+      <button type="button" class="chip">dairy free yogurt under $4</button>
+    </div>
+    <main id="results"><p class="hint">Results for your search show up here.</p></main>
+  </section>
+  </div>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
