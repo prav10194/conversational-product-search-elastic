@@ -1,0 +1,17 @@
+# Kibana for the "lab" cluster. ECK wires up the connection, credentials and TLS for you.
+apiVersion: kibana.k8s.elastic.co/v1
+kind: Kibana
+metadata:
+  name: lab
+spec:
+  version: 9.0.0            # keep in step with Elasticsearch
+  count: 1
+  elasticsearchRef:
+    name: lab
+  podTemplate:
+    spec:
+      containers:
+      - name: kibana
+        resources:
+          requests: { memory: 1Gi, cpu: 250m }
+          limits:   { memory: 1Gi }

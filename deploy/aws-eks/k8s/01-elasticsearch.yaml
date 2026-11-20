@@ -1,0 +1,80 @@
+# One Elasticsearch cluster named "lab", managed by the ECK operator.
+# 3 dedicated masters (quorum) + hot data nodes, spread across availability zones,
+# with shard allocation awareness so a primary and its replica never share a zone.
+apiVersion: elasticsearch.k8s.elastic.co/v1
+kind: Elasticsearch
+metadata:
+  name: lab
+  annotations:
+    # ECK copies each Kubernetes node's zone label onto the pod, so Elasticsearch can read it
+    eck.k8s.elastic.co/downward-node-labels: "topology.kubernetes.io/zone"
+spec:
+  version: 9.0.0            # change to see a rolling upgrade (see README, experiment 5)
+  nodeSets:
+  - name: masters
+    count: 3
+    config:
+      node.roles: ["master"]
+      node.attr.zone: ${ZONE}
+      cluster.routing.allocation.awareness.attributes: k8s_node_name,zone
+      node.store.allow_mmap: false   # lab shortcut; production sets vm.max_map_count on the hosts instead
+    podTemplate:
+      spec:
+        containers:
+        - name: elasticsearch
+          resources:
+            requests: { memory: 1536Mi, cpu: 250m }
+            limits:   { memory: 1536Mi }
+          env:
+          - name: ZONE
+            valueFrom:
+              fieldRef:
+                fieldPath: metadata.annotations['topology.kubernetes.io/zone']
+        topologySpreadConstraints:
+        - maxSkew: 1
+          topologyKey: topology.kubernetes.io/zone
+          whenUnsatisfiable: DoNotSchedule
+          labelSelector:
+            matchLabels:
+              elasticsearch.k8s.elastic.co/cluster-name: lab
+              elasticsearch.k8s.elastic.co/statefulset-name: lab-es-masters
+    volumeClaimTemplates:
+    - metadata:
+        name: elasticsearch-data
+      spec:
+        accessModes: ["ReadWriteOnce"]
+        resources: { requests: { storage: 2Gi } }
+
+  - name: hot
+    count: 2                # change to 3 to watch shards rebalance (experiment 4)
+    config:
+      node.roles: ["data_hot", "data_content", "ingest"]
+      node.attr.zone: ${ZONE}
+      cluster.routing.allocation.awareness.attributes: k8s_node_name,zone
+      node.store.allow_mmap: false
+    podTemplate:
+      spec:
+        containers:
+        - name: elasticsearch
+          resources:
+            requests: { memory: 2560Mi, cpu: 500m }
+            limits:   { memory: 2560Mi }
+          env:
+          - name: ZONE
+            valueFrom:
+              fieldRef:
+                fieldPath: metadata.annotations['topology.kubernetes.io/zone']
+        topologySpreadConstraints:
+        - maxSkew: 1
+          topologyKey: topology.kubernetes.io/zone
+          whenUnsatisfiable: DoNotSchedule
+          labelSelector:
+            matchLabels:
+              elasticsearch.k8s.elastic.co/cluster-name: lab
+              elasticsearch.k8s.elastic.co/statefulset-name: lab-es-hot
+    volumeClaimTemplates:
+    - metadata:
+        name: elasticsearch-data
+      spec:
+        accessModes: ["ReadWriteOnce"]
+        resources: { requests: { storage: 10Gi } }

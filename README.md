@@ -173,3 +173,4 @@ See [kibana/DASHBOARD.md](kibana/DASHBOARD.md): searches over time, top queries,
 | `app/search.py` | Filters + BM25 + ELSER + RRF, popularity boost, brand facet; degrades to lexical if semantic/RRF fails |
 | `app/main.py` | Flask: `/`, `/api/chat`, `/api/health`; logs every search |
 | `k8s/` | ECK Elasticsearch + Kibana, app Deployment, Ingress, load Job, trial license |
+| `deploy/aws-eks/` | Terraform for a 3-zone AWS EKS cluster + ECK: dedicated masters, zone-aware hot nodes, failover test ([README](deploy/aws-eks/README.md)) |
